@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+      .row {
+        background-color: aqua;
+        margin:3px;
+      }
+      .col {
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">Navbar</div>
+        <div class="col">
+            <span class="bg-primary" style="padding:10px 10px 5px 10px" id="totalNumber">0</span>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-primary" id="reset">Reset</button>
+      </div>
+      <div class="row" id="one">
+        <div class="col">
+          <span class="bg-warning" style="padding: 0px; margin: 0px" id="oneTotal">Zero</span>
+        </div>
+              <div class="col"  >
+          <button type="button" class="btn btn-secondary" id="oneAdd">+</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-secondary" id="oneSubtract">-</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-danger" id="oneDelete">Delete</button>
+        </div>
+      </div>
+      <div class="row" id="two">
+        <div class="col">
+          <span class="bg-warning" style="padding: 0px; margin: 0px" id="twoTotal">Zero</span>
+        </div>
+              <div class="col"  >
+          <button type="button" class="btn btn-secondary" id="twoAdd">+</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-secondary" id="twoSubtract">-</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-danger" id="twoDelete">Delete</button>
+        </div>
+      </div>
+      <div class="row" id="three">
+        <div class="col">
+          <span class="bg-warning" style="padding: 0px; margin: 0px" id="threeTotal">Zero</span>
+        </div>
+              <div class="col"  >
+          <button type="button" class="btn btn-secondary" id="threeAdd">+</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-secondary" id="threeSubtract">-</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-danger" id="threeDelete">Delete</button>
+        </div>
+      </div>
+      <div class="row" id="four">
+        <div class="col">
+          <span class="bg-warning" style="padding: 0px; margin: 0px" id="fourTotal">Zero</span>
+        </div>
+              <div class="col"  >
+          <button type="button" class="btn btn-secondary" id="fourAdd">+</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-secondary" id="fourSubtract">-</button>
+        </div>
+        <div class="col"  >
+
+          <button type="button" class="btn btn-danger" id="fourDelete">Delete</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
