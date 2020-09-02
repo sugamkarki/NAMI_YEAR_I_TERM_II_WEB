@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<script
+			src="https://kit.fontawesome.com/0f25f5010f.js"
+			crossorigin="anonymous"
+		></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="rps.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="heading">
+				<p class="title" id="winner">Rock Papers Scissors</p>
+			</div>
+			<div class="display">
+				<div class="display display_left" id="leftPlayer"><i id="left" class="far fa-10x fa-smile-beam"></i></div>
+				<div class="display display_right" id="rightPlayer"><i id="right"class="far fa-10x fa-smile-beam"></i></div>
+			</div>
+			<div class="controls">
+                <div class="reset"><button class="btn btn-outline-danger" id="reset" style="font-size: 30px;" onclick="reset()">
+                    RESET
+                </button></div>
+                <div class="start">Click on the Buttons to start: </div>
+				<div class="">
+					<button class="btn btn-outline-primary" id="rock" >
+						<i class="fas fa-4x fa-hand-rock"></i>
+                    </button>
+				</div>
+                <div class="papers">
+
+					<button class="btn btn-outline-primary" id="paper">
+						<i class="far fa-4x fa-sticky-note"></i>
+                    </button>
+                    </div>
+                <div class="scissors">
+                        <button class="btn btn-outline-primary" id="scissors">
+						<i class="far fa-4x fa-hand-scissors"></i>
+                    </button>
+                </div>
+                
+				</div>
+			</div>
+		</div>
+		<script src="rps.js" async defer></script>
+	</body>
+</html>
