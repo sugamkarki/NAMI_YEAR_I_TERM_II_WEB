@@ -1,0 +1,297 @@
+<!-- Specifyies what type of  document is to be expected to the browser-->
+<!DOCTYPE html>
+<!-- declaration of language of document -->
+<html lang="en-us">
+	<!-- starting of head tag -->
+
+	<head>
+		<!--specifies the character encoding in html  -->
+		<meta charset="UTF-8" />
+		<!-- Title of the website-->
+
+		<!-- gives browser instructions about the controlling of the page's dimensions and scaling  -->
+		<meta name="viewport" content="width=device-width, initil̥ōal-scale=1" />
+		<!-- linking HTMl file with CSS -->
+		<link rel="stylesheet" href="portfolio.css" type="text/css" />
+		<title>Portfolio</title>
+		<!--linking font awesome kit code-->
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		/>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+		<!-- My CSS -->
+		<!-- <link rel="stylesheet" href="style.css" /> -->
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script
+			src="https://kit.fontawesome.com/0f25f5010f.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- ending of head tag -->
+		<script src="portfolio.js"></script>
+	</head>
+	<!-- start of body tag -->
+
+	<body style="background-color: #2f3640;">
+		<header>
+
+			<nav class="container navigation pt-3">
+				<div class="row">
+					<div class="col-6 d-flex justify-content-start align-items-center">
+						<div class="logo">
+							<i class="fas fa-2x fa-jedi text-success pb-3"></i>
+	
+							<a href="index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
+						</div>
+					</div>
+					<div class="col-6 pt-2">
+						<div class="row text-center p-0 d-flex justify-content-end align-items-center navbur">
+							<div class="col-3">
+								<a href="cv.html" class="text-white navigation-link nav1" >CV</a>
+							</div>
+							<div class="col-3 nav1"">
+								<a href=" portfolio.html" class="text-white navigation-link ">Portfolio</a>
+							</div>
+							<div class="col-3 nav1"">
+								<a href=" contact.html" class="text-white navigation-link ">Contact</a>
+							</div>
+							<div class="col-3 nav1"">
+								<a href=" index.html" class="text-white navigation-link">LANDING PAGE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- <a name="top"></a> -->
+		</header>
+		 <div class="row row-cols-1 row-cols-md-2" style="background-color: #2f3640;width: 100%; ">
+			<div class="col mb-4" style="background-color: #353b48;">
+			  <div class="card" style="background-color: #7f8fa6;" >
+				<a href="https://codepen.io/magusikrak/pen/OJNpqYj">
+				<img src="Pics/Screenshots/game.gif" class="card-img-top" alt="..." style="height: 400px;"></a>
+				<div class="card-body">
+				  <h2 class="card-title text-warning">Ball Bounce Game(Poing)</h2>
+				  <p class="card-text">Move Mouse Cursor to move the Bat <span class="btn btn-outline-warning" onclick="openPoing()" style="float: right;" >Play Game</span></p>
+				  
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4" style="background-color: #353b48;">
+				<div class="card" style="background-color: #7f8fa6;" >
+				  <a href="https://codepen.io/magusikrak/pen/RwagdMz">
+				  <img src="Pics/Screenshots/rockpaperscissors.gif" class="card-img-top" alt="..." style="height: 400px;"></a>
+				  <div class="card-body">
+					<h2 class="card-title text-warning">Rock Paper Scissors</h2>
+					<p class="card-text">Play Rock-Paper-Scissors With the Computer <span class="btn btn-outline-warning" onclick="openRPS()" style="float: right;" >Play Game</span></p>
+					
+				  </div>
+				</div>
+			  </div>
+			<div class="col mb-4" >
+			  <div class="card" style="background-color: #7f8fa6;">
+				<a href="https://codepen.io/magusikrak/pen/GRZWBwr">
+				<img src="Pics/Screenshots/topic1.png" class="card-img-top" alt="..." style=" height: 400px;"></a>
+				<div class="card-body">
+				  <h2 class="card-title text-warning">Project 1</h2>
+				  <p class="card-text">Click on the image to go to the codepen of this project.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+			  <div class="card" style="background-color: #7f8fa6;">
+				<a href="https://codepen.io/magusikrak/pen/jOqBpQx">
+				<img src="Pics/Screenshots/topic2.png" class="card-img-top" alt="..."style=" height: 400px;">
+				</a>
+				<div class="card-body">
+				  <h2 class="card-title text-warning">Project 2</h2>
+				  <p class="card-text">Click on the image to go to the codepen of this project.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+			  <div class="card" style="background-color: #7f8fa6;">
+				<a href="https://codepen.io/magusikrak/pen/eYZvjQb"> 
+				<img src="Pics/Screenshots/topic3.gif" class="card-img-top" alt="..."style=" height: 400px;">
+				</a>
+				<div class="card-body">
+				  <h2 class="card-title text-warning">Project 3</h2>
+				  <p class="card-text">Click on the image to go to the codepen of this project.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+				<div class="card" style="background-color: #7f8fa6;">
+					<a href="https://codepen.io/magusikrak/pen/ZEWejVm">
+				  <img src="Pics/Screenshots/topic4.gif" class="card-img-top" alt="..."style=" height: 400px;"></a>
+				  <div class="card-body">
+					<h2 class="card-title text-warning">Project 4</h2>
+					<p class="card-text">Click on the image to go to the codepen of this project.</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col mb-4">
+				<div class="card" style="background-color: #7f8fa6;">
+					<a href="https://codepen.io/magusikrak/pen/poyeZYO">
+				  <img src="Pics/Screenshots/topic5.png" class="card-img-top" alt="..."style=" height: 400px;"></a>
+				  <div class="card-body">
+					<h2 class="card-title text-warning">Project 5</h2>
+					<p class="card-text">Click on the image to go to the codepen of this project.</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col mb-4">
+				<div class="card" style="background-color: #7f8fa6;">
+					<a href="https://codepen.io/magusikrak/pen/RwapBOo">
+				  <img src="Pics/Screenshots/topic6.gif" class="card-img-top" alt="..."style=" height: 400px;"></a>
+				  <div class="card-body">
+					<h2 class="card-title text-warning">Project 6</h2>
+					<p class="card-text">Click on the image to go to the codepen of this project.</p>
+				  </div>
+				</div>
+			  </div>
+			  
+		  </div> 
+		  <!-- <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+		<footer>
+			<div class="main-content">
+				<div class="left box">
+					<!-- <h2>
+				  Contact me</h2> -->
+					<div class="content">
+	
+						<div class="social">
+							<a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+							<a href="https://www.linkedin.com/in/sugam-karki-4877261a3/"><span
+									class="fab fa-linkedin"></span></a>
+							<a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+							<a href="https://github.com/magusikrak"><span class="fab fa-github-square"></span></a>
+							<a href="https://twitter.com"><span class="fab fa-twitter-square"></span></a>
+							<a href="https://freecodecamp.com"><span class="fab fa-free-code-camp"></span></a>
+	
+						</div>
+	
+						<button class="opnBtn" onclick="openForm()">
+							<i class="fas fa-2x fa-envelope"></i>
+						</button>
+	
+						<div class="popupDiv" id="myForm">
+	
+							<form action="/action_page.php" class="popupForm">
+	
+								<p class="textPopMessage">Message Box</p>
+	
+								<!-- <label for="message"><b>Message</b></label><br> -->
+								<input type="email" class="popEmail" required placeholder="Your email">
+								<input type="number" class="popNumber" name="" id="" placeholder="your phone number">
+	
+								<textarea placeholder="Please Enter your Message" name="message" required></textarea>
+	
+	
+								<button type="submit" class="btnSubmit">Submit</button>
+	
+								<button type="button" class="btnCancel" onclick="closeForm()">Close Form</button>
+	
+							</form>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#top" ><i class="fas fa-2x fa-arrow-up up-link"></i></a>
+		</footer>
+	</body>
+</html>
+<!-- </html>
+<div class="container">
+	<div class="game">
+		<div class="game game_gif"><a href="game.html"><img src="pics/Screenshots/game.gif" alt=""></a></div>
+		<div class="game game_button">
+				<button class="btn btn-outline-primary" onclick="openGame()">Click here to Play</button>
+			
+
+		</div>
+	</div>
+	<div class="codepen">
+		<div class="item">
+			<div class="item item_one">
+				
+				<a href="https://codepen.io/magusikrak/pen/GRZWBwr">
+				<img src="Pics/Screenshots/topic1.png"></a>
+			</div>
+			<div class="item item_two">
+				<a href="https://codepen.io/magusikrak/pen/jOqBpQx">
+				<img src="Pics/Screenshots/topic2.png" alt=""></a:href>
+			</div>
+			<div class="item item_three">
+				<a href="https://codepen.io/magusikrak/pen/eYZvjQb">
+				<img src="Pics/Screenshots/topic3.gif" alt=""></a>
+			</div>
+			<div class="item item_four">
+				<a href="https://codepen.io/magusikrak/pen/ZEWejVm">
+				<img src="Pics/Screenshots/topic4.gif" alt=""></a>
+			</div>
+			<div class="item item_five">
+				<a href="https://codepen.io/magusikrak/pen/poyeZYO">
+				<img src="pics/Screenshots/topic5.gif" alt=""></a>
+			</div>
+			<div class="item item_six">
+				<a href="https://codepen.io/magusikrak/pen/RwapBOo">
+				<img src="pics/Screenshots/topic6.gif" alt=""></a>
+			</div>
+			<div class="item item_seven">
+				<a href="https://codepen.io/magusikrak/pen/OJNpqYj">
+				<img src="pics/Screenshots/game.gif" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</div> -->

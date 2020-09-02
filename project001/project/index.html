@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>LANDING PAGE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <a name="top"></a>
+    <header>
+
+        <nav class="container navigation pt-3">
+            <div class="row">
+                <div class="col-6 d-flex justify-content-start align-items-center">
+                    <div class="logo">
+                        <i class="fas fa-2x fa-jedi text-success pb-3"></i>
+
+                        <a href="index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
+                    </div>
+                </div>
+                <div class="col-6 pt-2">
+                    <div class="row text-center p-0 d-flex justify-content-end align-items-center navbur">
+                        <div class="col-3">
+                            <a href="cv.html" class="text-white navigation-link nav1">CV</a>
+                        </div>
+                        <div class="col-3 nav1"">
+                            <a href=" portfolio.html" class="text-white navigation-link ">Portfolio</a>
+                        </div>
+                        <div class="col-3 nav1"">
+                            <a href=" contact.html" class="text-white navigation-link ">Contact</a>
+                        </div>
+                        <div class="col-3 nav1"">
+                            <a href=" index.html" class="text-white navigation-link">LANDING PAGE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <a name="top"></a> -->
+    </header>
+    <!-- Main Container -->
+    <div class="main-div">
+        <div class="main-container container">
+            <div class="row main_row">
+                <div class="col-7">
+                    <img src="Pics/a13.jpg" class="img-fluid" />
+                </div>
+                <div class="col-5 name">
+                    <p class="text-white name-intro">Hi, Myself</p>
+                    <p class="text-danger name-heading myname">Sugam Karki</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="container about p-5 paragraph">
+            <div class="row">
+                <!-- pl-5 pt-5 pb-5 -->
+                <div class="text-white ">
+                    <p class="text-success about_me">About Me</p>
+                    <br />
+                    <p class="para">
+                        <!-- <b class="text-success">adipisci sunt eum</b> -->
+                        Hi, I am <b class="text-success">Sugam Karki</b>. I define myself as enthusiastic yet clumsy
+                        sometimes. I have been doing networking in NAMI College. I am passionate about programming,web
+                        devlopment and sometimes doing nothing. Having congenital need of simple life pleasures,i comply
+                        to push myself in the heirarchy of nature.Having done that,i have come in peace with looking
+                        around less and saving it in a pictures more.Here is the collection of pictures ,gathered
+                        throughout since I don't know:Years,maybe? Anybody is
+                        welcome here.It is very good to know me as I am very friendly and I am sure you will find me
+                        very interesting. I have lot of hobbies and in my truest belief I think we can have a good time
+                        together.
+                    </p>
+                    <a class="btn btn-outline-primary" href="cv.html">Learn More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <!-- <h2>
+              Contact me</h2> -->
+                <div class="content">
+
+                    <div class="social">
+                        <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://www.linkedin.com/in/sugam-karki-4877261a3/"><span
+                                class="fab fa-linkedin"></span></a>
+                        <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://github.com/magusikrak"><span class="fab fa-github-square"></span></a>
+                        <a href="https://twitter.com"><span class="fab fa-twitter-square"></span></a>
+                        <a href="https://freecodecamp.com"><span class="fab fa-free-code-camp"></span></a>
+
+                    </div>
+
+                    <button class="opnBtn" onclick="openForm()">
+                        <i class="fas fa-2x fa-envelope"></i>
+                    </button>
+
+                    <div class="popupDiv" id="myForm">
+
+                        <form action="/action_page.php" class="popupForm">
+
+                            <p class="textPopMessage">Message Box</p>
+
+                            <!-- <label for="message"><b>Message</b></label><br> -->
+                            <input type="email" class="popEmail" required placeholder="Your email">
+                            <input type="number" class="popNumber" name="" id="" placeholder="your phone number">
+
+                            <textarea placeholder="Please Enter your Message" name="message" required></textarea>
+
+
+                            <button type="submit" class="btnSubmit">Submit</button>
+
+                            <button type="button" class="btnCancel" onclick="closeForm()">Close Form</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" ><i class="fas fa-2x fa-arrow-up up-link"></i></a>
+    </footer>
+
+</body>
+
+</html>

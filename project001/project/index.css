@@ -1,0 +1,418 @@
+body {
+  background: #03a9f4;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+header {
+  background-color: #111;
+  opacity: 0.8;
+  /* border: 2px solid red; */
+}
+
+.logo {
+  border: 4px solid transparent;
+}
+
+.logo:hover {
+  border-bottom: 4px solid #da0e0e;
+}
+
+/* Main Heading Font */
+.name-heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+}
+
+.name-heading:hover {
+  font-size: 100px;
+  border-bottom: 2px solid orangered;
+}
+
+
+.name-intro {
+  font-size: 30px;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f0023d;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 500px;
+  border: 1px solid transparent;
+}
+
+.main-container:hover {
+  border: 1px solid #8e8e8e;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 500px;
+  width: 500px;
+  float: left;
+  padding: 10px;
+}
+
+.name {
+  padding-right: 50px
+}
+
+.about_me {
+  font-size: 50px;
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+/* About Section */
+.about {
+  background: #9ccc65;
+  height: 700px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px grey;
+  margin-bottom: 10px;
+  /* border-radius: 0.5rem; */
+}
+
+.para {
+  font-size: 30px;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #313552;
+}
+
+/* .container-below{
+      height:600px;
+  } */
+.pic2 {
+  height: 500px;
+}
+
+/* NOTE foOTER */
+footer {
+  /* position: fixed; */
+  /* bottom: 0px;
+  width: 100%; */
+  opacity: 0.8;
+  height: 90px;
+  background: #111;
+}
+
+.main-content {
+  /* display: inline-block; */
+  float: center;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 5px 10px;
+  float: center;
+}
+
+
+/* .box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+} */
+.box .content:before {
+  /* position: absolute; */
+  content: '';
+  /* top: -10px; */
+  height: 2px;
+  width: 100%;
+  /* background: #1a1a1a; */
+}
+
+.box .content:after {
+  /* position: absolute; */
+  content: '';
+  height: 2px;
+  width: 15%;
+  /* background: #f12020; */
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  /* float: center; */
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+  /* float: center; */
+}
+
+.left .content .social a {
+  padding: 0 2px;
+}
+
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+  background: #f12020;
+}
+
+/* //ANCHOR */
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.popEmail,
+.popNumber {
+  width: 260px;
+  height: 50px;
+  color: #f5f6fa;
+  border-radius: 20px;
+  /* height: ; */
+  /* width: auto; */
+}
+
+.popEmail:focus,
+.popNumber:focus {
+  background-color: #273c75;
+  /* height: ; */
+  /* width: auto; */
+}
+
+.textPopMessage p {
+  font-size: 40px;
+}
+
+.opnBtn {
+
+  background-color: #e1b12c;
+
+  color: #7f8fa6;
+
+  padding: 16px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+  opacity: 0.8;
+
+  position: fixed;
+
+  bottom: 23px;
+
+  right: 28px;
+  border-radius: 40px;
+
+  /* width: 280px; */
+
+}
+
+.opnBtn:hover {
+  background-color: #ffbb00;
+}
+
+.btnCancel {
+  border-radius: 40px;
+  width: 280px;
+  height: 50px;
+}
+
+.btnCancel:hover,
+.btnSubmit:hover {
+  background-color: rgb(204, 129, 38);
+  /* height: 500px; */
+}
+
+.btnSubmit {
+  border-radius: 40px;
+  width: 280px;
+  height: 50px;
+}
+
+/* The popup chat - hidden by default */
+
+.popupDiv {
+  border-radius: 20px;
+  display: none;
+
+  position: fixed;
+
+  bottom: 0;
+
+  right: 15px;
+
+  border: 3px solid #f1f1f1;
+
+  /* z-index: 9; */
+
+}
+
+.up-link {
+  position: fixed;
+  left: 15px;
+  width: 30px;
+  bottom: 30px;
+  border-radius: 60px;
+  background-color: #9ccc65;
+}
+
+.up-link:hover {
+  /* position: fixed;
+  left: 15px;
+  width: 30px;
+  bottom: 30px;
+  border-radius: 60px; */
+  background-color: #88fc04;
+}
+
+/* Add styles to the form container */
+
+.popupForm {
+
+  max-width: 300px;
+
+  padding: 10px;
+
+  background-color: white;
+
+}
+
+/* Full-width textarea */
+
+.popupForm textarea {
+  color: #f5f6fa;
+  width: 100%;
+
+  padding: 15px;
+
+  margin: 5px 0 22px 0;
+
+  border: none;
+
+  background: #f1f1f1;
+
+  resize: none;
+
+  min-height: 150px;
+  border-radius: 20px;
+
+}
+
+/* When the textarea gets focus, do something */
+
+.popupForm textarea:focus {
+
+  background-color: #273c75;
+
+  outline: none;
+
+}
+
+/* Set a style for the submit/send button */
+
+.popupForm {
+
+  background-color: #718093;
+
+  color: white;
+
+  padding: 16px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+  width: 100%;
+
+  margin-bottom: 10px;
+
+  opacity: 1;
+  border-radius: 20px;
+
+}
+
+/* Add a red background color to the btnCancel button */
+
+
+
+/* Add some hover effects to buttons */
+
+.popupForm .btnSubmit:hover,
+.opnBtn:hover {
+
+  opacity: 1;
+
+}
+
+@media all and (min-width: 360px) and (max-width: 767px) {
+  .navbur {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav1 {
+    flex: 1;
+    /* border: 2px solid yellow; */
+  }
+
+  .name {
+    font-size: 10px;
+  }
+
+  .myname {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    height: 2000px;
+    /* overflow: hidden; */
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .paragraph {
+    height: 1000px;
+    /* overflow: hidden; */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    /* position: relative; */
+    bottom: 0px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: 5px 0;
+  }
+}

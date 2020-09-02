@@ -1,0 +1,759 @@
+* {
+  /* setting list style to none */
+  list-style: none;
+  /* setting font to sans-serif */
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #111;
+  /* border: 2px solid red; */
+}
+
+/* .logo {
+    border: 4px solid transparent;
+  }
+  
+  .logo:hover {
+    border-bottom: 4px solid #da0e0e;
+  }
+  
+  /* Main Heading Font */
+/* .name-heading {
+    font-family: "Roboto Slab", serif;
+    font-size: 80px;
+  }
+  
+  .name-heading:hover {
+    font-size: 100px;
+    border-bottom: 2px solid orangered;
+  }
+  
+  .name-intro {
+    font-size: 30px;
+  }
+   */
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #18c46e;
+  transition: 0.5s ease;
+}
+
+.poing {
+  display: inline;
+}
+
+/* ANCHOR ending of header */
+
+
+/* --------------------------------------header-------------------------------- */
+
+body {
+  /* setting font size to 14px */
+  font-size: 14px;
+  /* setting width to 100% */
+  width: 100%;
+  /* settinf inline-height to 22px */
+  line-height: 22px;
+  /* settinf colour to #ff0404 */
+  color: #1B1464;
+}
+
+.big {
+  /* setting font weight to 700 */
+  font-weight: 700;
+  /* setting font size to 20px */
+  font-size: 20px;
+  /* setting text transform to uppercase */
+  text-transform: uppercase;
+}
+
+.bit_big {
+  /* settinf font weight to 500 */
+  font-weight: 500;
+  /* setting font size to 16px */
+  font-size: 16px;
+}
+
+.cv {
+  /* setting backgroung colour to #ccc */
+  background-color: #ccc;
+  /* setting width to 100% */
+  width: 100%;
+  /* setting display to flex */
+  display: flex;
+  /* setting justify-content to center */
+  justify-content: center;
+}
+
+.cv .resume_left {
+  /* setting display to flex */
+  display: flex;
+  /* setting flex-wrap to wrap */
+  flex-wrap: wrap;
+  /* setting background-color to red */
+  background-color: #1B1464;
+  /* setting width to 50% */
+  width: 50%;
+}
+
+.cv .resume_left .my_profile {
+  /* setting width to 100% */
+  width: 100%;
+  /* setting height to 280px */
+  height: 280px;
+}
+
+.cv .resume_left .my_profile img {
+  /* setting width to 100% */
+  width: 100%;
+  /* setting height to 100% */
+  height: 100%;
+}
+
+.cv .resume_left .my_content {
+  /* setting padding to 0px on the left and 25px on the top */
+  padding: 0px 25px;
+}
+
+.cv .head {
+  /* setting margin-bottom to 20px  */
+  margin-bottom: 20px;
+}
+
+.cv .resume_left .big {
+  /* setting color to rgb 0, 255, 55 */
+  color: rgb(0, 255, 55);
+}
+
+.cv .resume_left .normal {
+  /* setting color to #08bcfd */
+  color: #08bcfd;
+}
+
+.cv .resume_left ul li {
+  /* setting display to flex */
+  display: flex;
+  /* setting margin-bottom to 10px */
+  margin-bottom: 10px;
+  /* setting align-items to center  */
+  align-items: center;
+}
+
+.cv .resume_left ul li .font_awe {
+  /* setting width to 35x */
+  width: 35px;
+  /* setting height to 35px */
+  height: 35px;
+  /* setting background to rgb(196, 67, 67) */
+  background: rgb(196, 67, 67);
+  /* setting colour to #000000 */
+  color: #000000;
+  /* setting border radus to 50% */
+  border-radius: 50%;
+  /* setting margin right to 15px */
+  margin-right: 15px;
+  /* setting font size to 16px */
+  font-size: 16px;
+  /* setting position to relative */
+  position: relative;
+}
+
+.cv .font_awe i,
+.cv .right_side .resume_hobby ul li i {
+  /* setting top to 50% */
+  top: 50%;
+  /* SETTING LEFT TO 50% */
+  left: 50%;
+  /* setting transfor to translate (-50%,-50%) */
+  transform: translate(-50%, -50%);
+}
+
+.cv .resume_left ul li .inform {
+  /* setting color to #3bc5f7 */
+  color: #3bc5f7;
+}
+
+.cv .resume_left .skills ul li {
+  /* setting display to flex */
+  display: flex;
+  /* setting margin-bottom to 10px */
+  margin-bottom: 10px;
+  /* setting colour #6cf57e */
+  color: #6cf57e;
+  /* setting justify-content to space-between */
+  justify-content: space-between;
+  /* setting align-items to center */
+  align-items: center;
+}
+
+.cv .resume_left .skills ul li .name {
+  /* settiinf width to 25% */
+  width: 25%;
+}
+
+.cv .resume_left .skills ul li .how_much {
+  /* setting width to 60% */
+  width: 60%;
+  /* setting margin to 0px on left and 5px on top */
+  margin: 0 5px;
+  /* setting height to 5px */
+  height: 5px;
+  /* setting backgrounf to #064961 */
+  background: #2cc7ff;
+  /* setting position to relative */
+  position: relative;
+}
+
+.cv .resume_left .skills ul li .perc {
+  /* setting width to 15% */
+  width: 15%;
+}
+
+.cv .resume_left .skills ul li .how_much span {
+  /* setting top to 0 */
+  top: 0;
+  /* setting left to 0 */
+  left: 0;
+  /* setting heght to 100% */
+  height: 100%;
+  /* setting background to #fff */
+  background: rgb(255, 10, 10);
+}
+
+.cv .right_side {
+  /* setting width to 505 */
+  width: 50%;
+  /* setting background colour to #ccda0b17 */
+  background-color: #ccda0b17;
+  /* setting paddint to 25px */
+  padding: 25px;
+}
+
+.cv .right_side .big {
+  /* setting color to #e5dbe6 */
+  color: #0652DD;
+}
+
+.cv .right_side .resume_work ul,
+.cv .right_side .education ul {
+  /* setting padding left to 40px */
+  padding-left: 40px;
+  /* setting overflow to hidden */
+  overflow: hidden;
+}
+
+.cv .right_side ul li {
+  /* setting position to relative */
+  position: relative;
+}
+
+.cv .right_side ul li .date {
+  /* setting font size to 16px */
+  font-size: 16px;
+  /* setting font weight  to 500 */
+  font-weight: 500;
+  /* setting margin bottom tp 15px */
+  margin-bottom: 15px;
+}
+
+.cv .right_side ul li .message {
+  /* setting  margin bottom to 20px */
+  margin-bottom: 20px;
+}
+
+.cv .right_side ul li:last-child .message {
+  /* setting  margin bottom to 0 */
+  margin-bottom: 0;
+}
+
+
+/* ---------------------footer-------------------------- */
+footer {
+  /* position: fixed; */
+  /* bottom: 0px;
+    width: 100%; */
+  height: 90px;
+  background: #111;
+}
+
+.main-content {
+  /* display: inline-block; */
+  float: center;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 5px 10px;
+  float: center;
+}
+
+
+/* .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  } */
+.box .content:before {
+  /* position: absolute; */
+  content: '';
+  /* top: -10px; */
+  height: 2px;
+  width: 100%;
+  /* background: #1a1a1a; */
+}
+
+.box .content:after {
+  /* position: absolute; */
+  content: '';
+  height: 2px;
+  width: 15%;
+  /* background: #f12020; */
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  /* float: center; */
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+  /* float: center; */
+}
+
+.left .content .social a {
+  padding: 0 2px;
+}
+
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+  background: #f12020;
+}
+
+/* //ANCHOR */
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.popEmail,
+.popNumber {
+  width: 260px;
+  height: 50px;
+  color: #f5f6fa;
+  border-radius: 20px;
+  /* height: ; */
+  /* width: auto; */
+}
+
+.popEmail:focus,
+.popNumber:focus {
+  background-color: #273c75;
+  /* height: ; */
+  /* width: auto; */
+}
+
+.textPopMessage p {
+  font-size: 40px;
+}
+
+.opnBtn {
+
+  background-color: #e1b12c;
+
+  color: #7f8fa6;
+
+  padding: 16px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+  opacity: 0.8;
+
+  position: fixed;
+
+  bottom: 23px;
+
+  right: 28px;
+  border-radius: 40px;
+
+  /* width: 280px; */
+
+}
+
+.opnBtn:hover {
+  background-color: #ffbb00;
+}
+
+.btnCancel {
+  border-radius: 40px;
+  width: 280px;
+  height: 50px;
+}
+
+.btnCancel:hover,
+.btnSubmit:hover {
+  background-color: rgb(204, 129, 38);
+  /* height: 500px; */
+}
+
+.btnSubmit {
+  border-radius: 40px;
+  width: 280px;
+  height: 50px;
+}
+
+/* The popup chat - hidden by default */
+
+.popupDiv {
+  border-radius: 20px;
+  display: none;
+
+  position: fixed;
+
+  bottom: 0;
+
+  right: 15px;
+
+  border: 3px solid #f1f1f1;
+
+  /* z-index: 9; */
+
+}
+
+/* Add styles to the form container */
+
+.popupForm {
+
+  max-width: 300px;
+
+  padding: 10px;
+
+  background-color: white;
+
+}
+
+/* Full-width textarea */
+
+.popupForm textarea {
+  color: #f5f6fa;
+  width: 100%;
+
+  padding: 15px;
+
+  margin: 5px 0 22px 0;
+
+  border: none;
+
+  background: #f1f1f1;
+
+  resize: none;
+
+  min-height: 150px;
+  border-radius: 20px;
+
+}
+
+/* When the textarea gets focus, do something */
+
+.popupForm textarea:focus {
+
+  background-color: #273c75;
+
+  outline: none;
+
+}
+
+/* Set a style for the submit/send button */
+
+.popupForm {
+
+  background-color: #718093;
+
+  color: white;
+
+  padding: 16px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+  width: 100%;
+
+  margin-bottom: 10px;
+
+  opacity: 1;
+  border-radius: 20px;
+
+}
+
+/* Add a red background color to the btnCancel button */
+
+
+
+/* Add some hover effects to buttons */
+
+.popupForm .btnSubmit:hover,
+.opnBtn:hover {
+
+  opacity: 1;
+
+}
+
+@media all and (min-width: 360px) and (max-width: 767px) {
+  .navbur {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav1 {
+    flex: 1;
+    /* border: 2px solid yellow; */
+  }
+
+  body {
+    /* setting font size to 14px */
+    font-size: 14px;
+    /* setting width to 100% */
+    width: 100%;
+    /* settinf inline-height to 22px */
+    line-height: 22px;
+    /* settinf colour to #ff0404 */
+    color: #ff0404;
+  }
+
+  .big {
+    /* setting font weight to 700 */
+    font-weight: 700;
+    /* setting font size to 20px */
+    font-size: 20px;
+    /* setting text transform to uppercase */
+    text-transform: uppercase;
+  }
+
+  .bit_big {
+    /* settinf font weight to 500 */
+    font-weight: 500;
+    /* setting font size to 16px */
+    font-size: 16px;
+  }
+
+  .cv {
+    /* setting backgroung colour to #ccc */
+    background-color: #ccc;
+    /* setting width to 100% */
+    width: 100%;
+    /* setting display to flex */
+    display: flex;
+    /* setting justify-content to center */
+    justify-content: center;
+  }
+
+  .cv .resume_left {
+    /* setting display to flex */
+    display: flex;
+    /* setting flex-wrap to wrap */
+    flex-wrap: wrap;
+    /* setting background-color to red */
+    background-color: red;
+    /* setting width to 50% */
+    width: 50%;
+  }
+
+  .cv .resume_left .my_profile {
+    /* setting width to 100% */
+    width: 100%;
+    /* setting height to 280px */
+    height: 280px;
+  }
+
+  .cv .resume_left .my_profile img {
+    /* setting width to 100% */
+    width: 100%;
+    /* setting height to 100% */
+    height: 100%;
+  }
+
+  .cv .resume_left .my_content {
+    /* setting padding to 0px on the left and 25px on the top */
+    padding: 5px;
+  }
+
+  .cv .head {
+    /* setting margin-bottom to 20px  */
+    margin-bottom: 20px;
+  }
+
+  .cv .resume_left .big {
+    /* setting color to rgb 0, 255, 55 */
+    color: rgb(0, 255, 55);
+  }
+
+  .cv .resume_left .normal {
+    /* setting color to #08bcfd */
+    color: #08bcfd;
+  }
+
+  .cv .resume_left ul li {
+    /* setting display to flex */
+    display: flex;
+    /* setting margin-bottom to 10px */
+    margin-bottom: 10px;
+    /* setting align-items to center  */
+    align-items: center;
+  }
+
+  .cv .resume_left ul li .font_awe {
+    /* setting width to 35x */
+    width: 35px;
+    /* setting height to 35px */
+    height: 35px;
+    /* setting background to rgb(196, 67, 67) */
+    background: rgb(196, 67, 67);
+    /* setting colour to #000000 */
+    color: #000000;
+    /* setting border radus to 50% */
+    border-radius: 50%;
+    /* setting margin right to 15px */
+    margin-right: 15px;
+    /* setting font size to 16px */
+    font-size: 16px;
+    /* setting position to relative */
+    position: relative;
+  }
+
+  .cv .font_awe i,
+  .cv .right_side .resume_hobby ul li i {
+    /* setting top to 50% */
+    top: 50%;
+    /* SETTING LEFT TO 50% */
+    left: 50%;
+    /* setting transfor to translate (-50%,-50%) */
+    transform: translate(-50%, -50%);
+  }
+
+  .cv .resume_left ul li .inform {
+    /* setting color to #3bc5f7 */
+    color: #3bc5f7;
+    position: relative;
+    left: -100px;
+  }
+
+  .cv .resume_left .skills ul li {
+    /* setting display to flex */
+    display: flex;
+    /* setting margin-bottom to 10px */
+    margin-bottom: 10px;
+    /* setting colour #6cf57e */
+    color: #6cf57e;
+    /* setting justify-content to space-between */
+    justify-content: space-between;
+    /* setting align-items to center */
+    align-items: center;
+  }
+
+  .cv .resume_left .skills ul li .name {
+    /* settiinf width to 25% */
+    width: 25%;
+    position: relative;
+    left: -50px;
+  }
+
+  .cv .resume_left .skills ul li .how_much {
+    /* setting width to 60% */
+    width: 60%;
+    /* setting margin to 0px on left and 5px on top */
+    margin: 0 5px;
+    /* setting height to 5px */
+    height: 5px;
+    /* setting backgrounf to #064961 */
+    background: #064961;
+    /* setting position to relative */
+    position: relative;
+  }
+
+  .cv .resume_left .skills ul li .perc {
+    /* setting width to 15% */
+    width: 15%;
+  }
+
+  .cv .resume_left .skills ul li .how_much span {
+    /* setting top to 0 */
+    top: 0;
+    /* setting left to 0 */
+    left: 0;
+    /* setting heght to 100% */
+    height: 100%;
+    /* setting background to #fff */
+    background: #fff;
+  }
+
+  .cv .right_side {
+    /* setting width to 505 */
+    width: 50%;
+    /* setting background colour to #ccda0b17 */
+    background-color: #ccda0b17;
+    /* setting paddint to 25px */
+    padding: 25px;
+  }
+
+  .cv .right_side .big {
+    /* setting color to #e5dbe6 */
+    color: #e5dbe6;
+  }
+
+  .cv .right_side .resume_work ul,
+  .cv .right_side .education ul {
+    /* setting padding left to 40px */
+    padding-left: 40px;
+    /* setting overflow to hidden */
+    overflow: hidden;
+  }
+
+  .cv .right_side ul li {
+    /* setting position to relative */
+    position: relative;
+  }
+
+  .cv .right_side ul li .date {
+    /* setting font size to 16px */
+    font-size: 16px;
+    /* setting font weight  to 500 */
+    font-weight: 500;
+    /* setting margin bottom tp 15px */
+    margin-bottom: 15px;
+  }
+
+  .cv .right_side ul li .message {
+    /* setting  margin bottom to 20px */
+    margin-bottom: 20px;
+  }
+
+  .cv .right_side ul li:last-child .message {
+    /* setting  margin bottom to 0 */
+    margin-bottom: 0;
+  }
+
+}
+
+.up-link {
+  position: fixed;
+  left: 15px;
+  width: 30px;
+  bottom: 30px;
+  border-radius: 60px;
+  background-color: #9ccc65;
+}
