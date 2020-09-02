@@ -1,224 +1,266 @@
-header{
-    background-color: #111;
-    /* border: 2px solid red; */
-  }
-  .logo {
-    border: 4px solid transparent;
-  }
-  
-  .logo:hover {
-    border-bottom: 4px solid #da0e0e;
-  }
-  
-  /* Main Heading Font */
-  .name-heading {
-    font-family: "Roboto Slab", serif;
-    font-size: 80px;
-  }
-  
-  .name-heading:hover {
-    font-size: 100px;
-    border-bottom: 2px solid orangered;
-  }
-  
-  .name-intro {
-    font-size: 30px;
-  }
-  
-  /* Navigation */
-  .navigation-link {
-    border: 2px solid transparent;
-  }
-  
-  .navigation-link:hover {
-    text-decoration: none;
-    border-bottom: 2px solid #18c46e;
-    transition: 0.5s ease;
-  }
-  
+header {
+  background-color: #111;
+  /* border: 2px solid red; */
+}
+.logo {
+  border: 4px solid transparent;
+}
+
+.logo:hover {
+  border-bottom: 4px solid #da0e0e;
+}
+
+/* Main Heading Font */
+.name-heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+}
+
+.name-heading:hover {
+  font-size: 100px;
+  border-bottom: 2px solid orangered;
+}
+
+.name-intro {
+  font-size: 30px;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #18c46e;
+  transition: 0.5s ease;
+}
 
 /* ANCHOR end of header  */
-
 
 /* --------------------------HEADER---------------------------------------- */
 
 .cont {
-    /* setting background image  */
-    /* background: url(/Pics/board.jpg) no-repeat center; */
-    /* setting background size to cover the division */
-    background-size: cover;
-    /* setting padding to 40px on left */
-    padding: 40px;
-    background-color: #c8d6e5;
+  /* setting background image  */
+  /* background: url(/Pics/board.jpg) no-repeat center; */
+  /* setting background size to cover the division */
+  background-size: cover;
+  /* setting padding to 40px on left */
+  padding: 40px;
+  background-color: #c8d6e5;
 }
 
 .cont h1 {
-    /* setting text align to center */
-    text-align: center;
-    /* setting colout to #ddd */
-    color: #576574;
+  /* setting text align to center */
+  text-align: center;
+  /* setting colout to #ddd */
+  color: #576574;
 }
 
 .form {
-    /* setting max-width to 600px */
-    max-width: 600px;
-    /* setting margin to auto  */
-    margin: auto;
-    /* setting padding top to 10px */
-    padding: 0 10px 0px 0px;
-    /* hides the overflow */
-    overflow: hidden;
+  /* setting max-width to 600px */
+  max-width: 600px;
+  /* setting margin to auto  */
+  margin: auto;
+  /* setting padding top to 10px */
+  padding: 0 10px 0px 0px;
+  /* hides the overflow */
+  overflow: hidden;
 }
 
 .cft {
-    /* setting display type to block */
-    display: block;
-    /* setting width to 100% */
-    width: 100%;
-    /* setting type of box to border-box */
-    box-sizing: border-box;
-    /* setting margin to 15px on the left */
-    margin: 15px 0;
-    /* setting border to 0px */
-    border: 0px;
-    /* setting backgrounf to #1111 */
-    background-color: rgba(199, 18, 18, 0.067);
-    /* setting padding to 20px on the left and 40px on top */
-    padding: 20px 40px;
-    /* setting outilne to none */
-    outline: none;
-    /* setting colour to #ddd */
-    color: rgb(248, 11, 11);
-    /* setting transition time to 0.5s */
-    transition: 0.5s;
+  /* setting display type to block */
+  display: block;
+  /* setting width to 100% */
+  width: 100%;
+  /* setting type of box to border-box */
+  box-sizing: border-box;
+  /* setting margin to 15px on the left */
+  margin: 15px 0;
+  /* setting border to 0px */
+  border: 0px;
+  /* setting backgrounf to #1111 */
+  background-color: rgba(199, 18, 18, 0.067);
+  /* setting padding to 20px on the left and 40px on top */
+  padding: 20px 40px;
+  /* setting outilne to none */
+  outline: none;
+  /* setting colour to #ddd */
+  color: rgb(248, 11, 11);
+  /* setting transition time to 0.5s */
+  transition: 0.5s;
 }
 
 .cft textarea {
-    /* setting setting resize to none */
-    resize: none;
-    /* setting height to 130px */
-    height: 130px;
+  /* setting setting resize to none */
+  resize: none;
+  /* setting height to 130px */
+  height: 130px;
 }
 
 .form-send {
-    /* setting float to right */
-    float: right;
-    /* setting border to 0px */
-    border: 0px;
-    /* setting background to #34495e */
-    background: #34495e;
-    /* setting colour to #fff */
-    color: #fff;
-    /* setting padding to 15px on left and 45px on top */
-    padding: 15px 45px;
-    /* setting border radius to 25px */
-    border-radius: 25px;
-    /* setting pointer notice while hovering cursor */
-    cursor: pointer;
-    /* setting transition time to 0.5s */
-    transition: 0.5s;
+  /* setting float to right */
+  float: right;
+  /* setting border to 0px */
+  border: 0px;
+  /* setting background to #34495e */
+  background: #34495e;
+  /* setting colour to #fff */
+  color: #fff;
+  /* setting padding to 15px on left and 45px on top */
+  padding: 15px 45px;
+  /* setting border radius to 25px */
+  border-radius: 25px;
+  /* setting pointer notice while hovering cursor */
+  cursor: pointer;
+  /* setting transition time to 0.5s */
+  transition: 0.5s;
 }
 
 .form-send:hover {
-    /* setting colour change to  #29b948*/
-    background: #29b948;
+  /* setting colour change to  #29b948*/
+  background: #29b948;
 }
 
+.feedback {
+  position: fixed;
+  top: 100px;
+  right: auto;
+  width: 1200px;
+  height: auto;
+  background-color: #e55039 ;
+  padding: 20px;
+  display: flex;
+  border-radius: 40px;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: inherit;
+  opacity: 1;
+  display: none;
+  /* transition: 1s; */
 
+}
+#feedbackText {
+  font-size: 30px;
+}
+#feedbackName {
+  font-size: 30px;
+}
+#feedbackButton {
+  font-size: 30px;
+  width: auto;
+  margin: 5px;
+  /* flex-wrap: wrap; */
+  overflow-wrap: auto;
+  float: right;
+  /* overflow:hidde */
+  
+}
+#feedbackEdit {
+  font-size: 30px;
+  width: auto;
+  margin: 0px;
+  /* flex-wrap: wrap; */
+  overflow-wrap: auto;
+  float: left;
+  /* overflow:hidde */
+  
+}
 /* ANCHOR Starting of footer */
 
 footer {
-    /* position: fixed; */
-    /* bottom: 0px;
+  /* position: fixed; */
+  /* bottom: 0px;
     width: 100%; */
-    height: 90px;
-    background: #111;
-  }
-  
-  .main-content {
-    /* display: inline-block; */
-    float: center;
-  }
-  
-  .main-content .box {
-    flex-basis: 50%;
-    padding: 5px 10px;
-    float: center;
-  }
-  
-  
-  /* .box .content{
+  height: 90px;
+  background: #111;
+}
+
+.main-content {
+  /* display: inline-block; */
+  float: center;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 5px 10px;
+  float: center;
+}
+
+/* .box .content{
     margin: 20px 0 0 0;
     position: relative;
   } */
-  .box .content:before {
-    /* position: absolute; */
-    content: '';
-    /* top: -10px; */
-    height: 2px;
-    width: 100%;
-    /* background: #1a1a1a; */
-  }
-  
-  .box .content:after {
-    /* position: absolute; */
-    content: '';
-    height: 2px;
-    width: 15%;
-    /* background: #f12020; */
-    top: -10px;
-  }
-  
-  .left .content p {
-    text-align: justify;
-    /* float: center; */
-  }
-  
-  .left .content .social {
-    margin: 20px 0 0 0;
-    /* float: center; */
-  }
-  
-  .left .content .social a {
-    padding: 0 2px;
-  }
-  
-  .left .content .social a span {
-    height: 40px;
-    width: 40px;
-    background: #1a1a1a;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: 0.3s;
-  }
-  
-  .left .content .social a span:hover {
-    background: #f12020;
-  }
-  /* ANCHOR chathox */
-  
+.box .content:before {
+  /* position: absolute; */
+  content: "";
+  /* top: -10px; */
+  height: 2px;
+  width: 100%;
+  /* background: #1a1a1a; */
+}
+
+.box .content:after {
+  /* position: absolute; */
+  content: "";
+  height: 2px;
+  width: 15%;
+  /* background: #f12020; */
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  /* float: center; */
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+  /* float: center; */
+}
+
+.left .content .social a {
+  padding: 0 2px;
+}
+
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+  background: #f12020;
+}
+/* ANCHOR chathox */
+
 /* Button used to open the chat form - fixed at the bottom of the page */
-.popEmail, .popNumber{
+.popEmail,
+.popNumber {
   width: 260px;
-  height:50px;
+  height: 50px;
   color: #f5f6fa;
   border-radius: 20px;
   /* height: ; */
   /* width: auto; */
 }
-.popEmail:focus, .popNumber:focus{
+.popEmail:focus,
+.popNumber:focus {
   background-color: #273c75;
   /* height: ; */
   /* width: auto; */
 }
-.textPopMessage p{
+.textPopMessage p {
   font-size: 40px;
 }
 .opnBtn {
-
-  background-color:#e1b12c;
+  background-color: #e1b12c;
 
   color: #7f8fa6;
 
@@ -238,21 +280,21 @@ footer {
   border-radius: 40px;
 
   /* width: 280px; */
-
 }
-.opnBtn:hover{
-  background-color:#ffbb00;
+.opnBtn:hover {
+  background-color: #ffbb00;
 }
-.btnCancel  {
+.btnCancel {
   border-radius: 40px;
   width: 280px;
   height: 50px;
 }
-.btnCancel:hover,.btnSubmit:hover{
+.btnCancel:hover,
+.btnSubmit:hover {
   background-color: rgb(204, 129, 38);
   /* height: 500px; */
 }
-.btnSubmit  {
+.btnSubmit {
   border-radius: 40px;
   width: 280px;
   height: 50px;
@@ -272,19 +314,16 @@ footer {
   border: 3px solid #f1f1f1;
 
   /* z-index: 9; */
-
 }
 
 /* Add styles to the form container */
 
 .popupForm {
-
   max-width: 300px;
 
   padding: 10px;
 
   background-color: white;
-
 }
 
 /* Full-width textarea */
@@ -305,23 +344,19 @@ footer {
 
   min-height: 150px;
   border-radius: 20px;
-
 }
 
 /* When the textarea gets focus, do something */
 
 .popupForm textarea:focus {
-
   background-color: #273c75;
 
   outline: none;
-
 }
 
 /* Set a style for the submit/send button */
 
-.popupForm{
-
+.popupForm {
   background-color: #718093;
 
   color: white;
@@ -338,32 +373,59 @@ footer {
 
   opacity: 1;
   border-radius: 20px;
-
 }
 
 /* Add a red background color to the btnCancel button */
-
-
 
 /* Add some hover effects to buttons */
 
 .popupForm .btnSubmit:hover,
 .opnBtn:hover {
-
   opacity: 1;
-
 }
 @media all and (min-width: 360px) and (max-width: 767px) {
   .navbur {
     display: flex;
     flex-direction: column;
-}
+    
+  }
 
-.nav1 {
+  .nav1 {
     flex: 1;
     /* border: 2px solid yellow; */
-}  
+  }
+  .feedback {
+    /* padding: 20px; */
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin:2px;
+    float: left;
+    align-content: center;
+    align-self: auto;
+    overflow:inherit;
 
+  }
+  #feedbackText {
+    font-size: 20px;
+  }
+  #feedbackName {
+    font-size: 20px;
+  }
+  #feedbackButton {
+    font-size: 20px;
+    width: auto;
+  }
+  #feedbackEdit {
+    font-size: 20px;
+    width: auto;
+  }
+  #feedbackMessage
+  {
+    /* overflow: ; */
+    height: auto;
+    width: auto;
+  }
 }
 .up-link {
   position: fixed;
@@ -374,8 +436,18 @@ footer {
   background-color: #9ccc65;
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
-
+  .feedback {
+    width: 600px;
+    height: auto;
+    padding:10px;
+  }
+  
+  #feedbackText {
+    font-size: 20px;
+  }
+  #feedbackName {
+    font-size: 20px;
+  }
 }
 @media all and (min-width: 1280px) and (max-width: 1920px) {
-
 }

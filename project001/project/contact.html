@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    
 
     <!-- My CSS -->
     <!-- <link rel="stylesheet" href="style.css" /> -->
@@ -29,7 +29,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- linking HTMl file with CSS -->
     <link rel="stylesheet" href="contact.css" type="text/css" />
-    <script src="contact.js"></script>
 
     <!--linking font awesome kit code-->
 
@@ -38,10 +37,10 @@
 </head>
 <!-- start of body tag -->
 
-<body>
+<body >
     <!-- start of header -->
     <a name="top"></a>
-    <header>
+    <header id="header">
         <nav class="container navigation pt-3">
             <div class="row">
                 <div class="col-6 d-flex justify-content-start align-items-center">
@@ -71,28 +70,36 @@
         </nav>
     </header>
     <!-- creation of class "cont" which holds the container -->
-    <div class="cont">
+    <div class="cont" id="">
         <!-- header which says "Contact Me" -->
+        <div id="frm">
         <h1 style="color: blueviolet;">Contact Me</h1>
         <!-- starting of form  -->
         <form name="form" class="form" id="form">
             <!-- text box for name -->
-            <input type="text" class="cft" placeholder="John Doe" id="name" name="Name"/>
+            <input type="text" class="cft" placeholder="Al E. Gater" id="name" name="Name"/>
             <!-- text box for email address -->
-            <input type="email" class="cft" placeholder="Email@email.com" id="email"/>
+            <input type="email" class="cft" placeholder="Stu@Pitt.com" id="email"/>
             <!-- text box for phone number -->
             <input type="text" class="cft" placeholder="Phone Number" id="phone"/>
             <!-- text area for Message -->
-            <textarea class="cft" placeholder="Message" id='message"'></textarea>
+            <textarea class="cft" placeholder="Message (under 200 characters)" id="message"></textarea>
             <!-- submit button to submit the form -->
-            <input type="submit" class="form-send" value="Send" id="send" onclick="validate()"/>
+            <input type="button" class="form-send" value="Send" id="send" />
             <!-- ending of form  -->
         </form>
+        </div>
+        <div class="feedback" id="feedback">
+                <div id="feedbackText">Please check the facts before sending.<br> Name:<p id="feedbackName" style="background-color:#4a69bd; width:fit-content;"></p>Email:<p id="feedbackEmail"style="background-color:chartreuse; width:fit-content;"></p> Your message<i> <p id="feedbackMessage" style="background-color: #4a69bd; width:fit-content;">zzzzz</p></i> </div>
+                <button class="btn btn-outline-primary" id="feedbackButton" >SEND</button> 
+                <button class="btn btn-outline-warning" id="feedbackEdit" >Edit</button></div>
+
+        </div>
         <!-- ending of division -->
     </div>
 
     <!-- starting of footer with background colour prespecified -->
-    <footer>
+    <footer id="footer">
         <div class="main-content">
             <div class="left box">
                 <!-- <h2>
@@ -122,10 +129,10 @@
             <p class="textPopMessage">Message Box</p>
 
             <!-- <label for="message"><b>Message</b></label><br> -->
-            <input type="email" class="popEmail" required placeholder="Your email">
+            <input type="email" class="popEmail"   placeholder="Your email">
             <input type="number" class="popNumber" name="" id="" placeholder="your phone number">
 
-            <textarea placeholder="Please Enter your Message" name="message" required></textarea>
+            <textarea placeholder="Please Enter your Message" name="message"  ></textarea>
 
 
             <button type="submit" class="btnSubmit">Submit</button>
@@ -141,6 +148,8 @@
         <a href="#top" ><i class="fas fa-2x fa-arrow-up up-link"></i></a>
     </footer>
     <!-- ending of body  -->
+    <script src="contact.js"></script>
+
 </body>
 <!-- ending of html  -->
 

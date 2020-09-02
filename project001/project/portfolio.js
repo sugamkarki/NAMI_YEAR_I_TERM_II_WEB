@@ -21,3 +21,11 @@ function openRPS() {
 		true
 	);
 }
+function openCalc() {
+	window.open(
+		"calculator.html",
+		"Win 2",
+		"width=1300, height=600, top=100, left=100, resizable=1, menubar=yes",
+		true
+	);
+}
