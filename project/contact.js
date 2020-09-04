@@ -5,6 +5,8 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+// document.getElementById("errorNamePop").display="none";
+// document.getElementsByClassName("error_message").display="none";
 
 var name = document.getElementById("name");
 var email = document.getElementById("email");
@@ -72,12 +74,6 @@ function feedbackOpen() {
   } else {
     validData = true;
   }
-  // console.log(validName + "validName");
-  // console.log(validEmail + "email");
-  // console.log(validPhone + "num");
-  // console.log(validMessage + "msg");
-  // console.log(validData + "data");
-
   if (validData == true) {
     feedbackName.innerHTML = document.getElementById("name").value;
     feedbackEmail.innerHTML = document.getElementById("email").value;
@@ -95,38 +91,51 @@ function feedbackClose() {
 }
 feedbackEdit.addEventListener("click", () => {
   feedback.style.display = "none";
-  // document.location.reload();
   document.getElementById("frm").style.opacity = 1;
   document.getElementById("header").style.opacity = 1;
   document.getElementById("footer").style.opacity = 1;
 });
 function invalidName()
 {
-  alert("invalid name");
+  // alert("invalid name");
   // let val=document.getElementById("name").value
-  document.getElementById("name").style.backgroundColor="#ff3838";
-  document.getElementById("name").style.color="black";
+  document.getElementById("name").style.border='2px solid red';
+  // errorNamePop
+  document.getElementById("errorNamePop").style.display="block";
+
+  // document.getElementById("name").style.color="black";
 
 }
 function invalidEmail()
 {
-  alert("invalid Email");
-  document.getElementById("email").style.backgroundColor="#ff3838";
+
+  // document.getElementById("email").style.backgroundColor="#ff3838";
+  document.getElementById("email").style.border='2px solid red';
+
   document.getElementById("email").style.color="black";
+  document.getElementById("errorEmailPop").style.display="block";
+
   
 }
 function invalidPhone()
 {
-  alert("invalid Phone");
-  document.getElementById("phone").style.backgroundColor="#ff3838";
-  document.getElementById("phone").style.color="black";
+  // document.getElementById("phone").style.backgroundColor="#ff3838";
+  document.getElementById("phone").style.border='2px solid red';
+
+  // document.getElementById("phone").style.color="black";
+  document.getElementById("errorPhonePop").style.display="block";
+
   
 }
 function invalidMessage()
 {
-  alert("The message is too long");
-  document.getElementById("message").style.backgroundColor="#ff3838";
+  // alert("The message is too long");
+  // document.getElementById("message").style.backgroundColor="#ff3838";
+  document.getElementById("message").style.border='2px solid red';
+
   document.getElementById("message").style.color="black";
+  document.getElementById("errorMessagePop").style.display="block";
+
 
 }
 // }

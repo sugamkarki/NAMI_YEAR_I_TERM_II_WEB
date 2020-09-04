@@ -35,7 +35,13 @@ header {
   border-bottom: 2px solid #18c46e;
   transition: 0.5s ease;
 }
-
+.error_message{
+  display: none;
+  color:#B53471;
+}
+#name{
+  /* border: 1px solid red; */
+}
 /* ANCHOR end of header  */
 
 /* --------------------------HEADER---------------------------------------- */
@@ -128,7 +134,7 @@ header {
   right: auto;
   width: 1200px;
   height: auto;
-  background-color: #e55039 ;
+  background-color: #34495e ; 
   padding: 20px;
   display: flex;
   border-radius: 40px;

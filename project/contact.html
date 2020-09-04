@@ -78,19 +78,25 @@
         <form name="form" class="form" id="form">
             <!-- text box for name -->
             <input type="text" class="cft" placeholder="Al E. Gater" id="name" name="Name"/>
+            <p class="error_message" id="errorNamePop">*The name is incorrect</p>
             <!-- text box for email address -->
             <input type="email" class="cft" placeholder="Stu@Pitt.com" id="email"/>
+            <p class="error_message"id="errorEmailPop">*The Email is incorrect</p>
+
             <!-- text box for phone number -->
             <input type="text" class="cft" placeholder="Phone Number" id="phone"/>
+            <p class="error_message"id="errorPhonePop">*The Phone number is incorrect</p>
             <!-- text area for Message -->
             <textarea class="cft" placeholder="Message (under 200 characters)" id="message"></textarea>
+            <p class="error_message"id="errorMessagePop">*The Message Is too long</p>
             <!-- submit button to submit the form -->
+
             <input type="button" class="form-send" value="Send" id="send" />
             <!-- ending of form  -->
         </form>
         </div>
         <div class="feedback" id="feedback">
-                <div id="feedbackText">Please check the facts before sending.<br> Name:<p id="feedbackName" style="background-color:#4a69bd; width:fit-content;"></p>Email:<p id="feedbackEmail"style="background-color:chartreuse; width:fit-content;"></p> Your message<i> <p id="feedbackMessage" style="background-color: #4a69bd; width:fit-content;">zzzzz</p></i> </div>
+                <div id="feedbackText" style="color:#ecf0f1">Please check the facts before sending.<br> Name:<p id="feedbackName" style="background-color:#95a5a6; width:fit-content;"></p>Email:<p id="feedbackEmail"style="background-color:#95a5a6; width:fit-content;"></p> Your message<i> <p id="feedbackMessage" style="background-color: #95a5a6; width:fit-content;"></p></i> </div>
                 <button class="btn btn-outline-primary" id="feedbackButton" >SEND</button> 
                 <button class="btn btn-outline-warning" id="feedbackEdit" >Edit</button></div>
 

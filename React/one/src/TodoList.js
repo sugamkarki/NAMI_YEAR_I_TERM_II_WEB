@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from "react";
+import Todo from './Todo'
 
-export default function () {
-    return (
-        <div>
-            <h1>helo</h1>
-            <h2>yoohoo</h2>
-        </div>
-    )
+export default function ({todos}) {
+  return (
+  <div>
+      {todos.length}
+      </div>);
 }
