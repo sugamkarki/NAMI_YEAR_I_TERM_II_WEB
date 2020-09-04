@@ -1,23 +1,14 @@
-import React,{useState} from "react";
-// import logo from './logo.svg';
+import React, { useState } from "react";
 import "./App.css";
-import TodoList from "./TodoList";
+// import pp from "./pp";
+// import TodoList from "./TodoList";
 
-function App() {
-  // var useState = ["Todo 1", "Todo 2"];
-  const [todos, setTodos] = useState(["Todo 1", "Todo 2"]);
-  // const [todos, setTodos] = useState;
+export default function App() {
+  // var sub2 = document.querySelector(".sub1");
+return ;
+  // return (
 
-  return (
-    <div>
-      {/* <TodoList /> */}
-      <TodoList todos={todos} />
-      <input type="text"></input>
-      <button class="btn">Add</button>
-      <button class="btn">Clear</button>
-      <p>0 left</p>
-    </div>
-  );
+  //   // <h1>Sher locked</h1>,  document.querySelector(".sub1")
+  //   // <h2>what son?</h2>,sub1);
+  // );
 }
-
-export default App;
