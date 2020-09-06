@@ -33,6 +33,7 @@ function feedbackOpen() {
   var validEmail = false;
   var validPhone = false;
   var validMessage = false;
+
   let nmbrs = /^[0-9]+$/;
 
   var specialChar = /^[A-Za-z ]+$/;

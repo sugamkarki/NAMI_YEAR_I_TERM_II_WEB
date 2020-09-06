@@ -5,10 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-serviceWorker.unregister();
+  <App/>,document.getElementById("root")
+)
+// ReactDOM.render(
+//     <App />,
+//   document.getElementById('root')
+// );
+if (module.hot)
+{
+  module.hot.accept()
+}
+// serviceWorker.unregister();

@@ -1,6 +1,12 @@
-var alpha=['A','B','C','D'];
-var beta=[1,2,3,4];
+var a="the lazy cat jumped over the roof";
+var b="cat";
+for(let i=0;i<a.length;i++)
+{
+    for(let j=0;j=b.length;b++)
+    {
+        if(a[i]==b[j]){
+            console.log("true");
+        }
+    }
 
-// console.log(alpha[0])
-const [a,b,c,d]=alpha;
-console.log(a+' '+b+c+d)
+}
