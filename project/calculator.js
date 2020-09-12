@@ -5,7 +5,6 @@ var clear = document.getElementById("clear");
 var copy = document.getElementById("copy");
 var equals = document.getElementById("equals");
 var a = display.innerText;
-// var a=0;
 
 var b, c, d;
 clear.addEventListener("click", clr);
