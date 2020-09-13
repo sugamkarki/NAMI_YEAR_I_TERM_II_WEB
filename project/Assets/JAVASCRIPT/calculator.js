@@ -1,7 +1,8 @@
 class Calculator {
-  constructor(firstNumber,secondNumber) {
-	this.firstNumber=firstNumber;
-	this.secondNumber=secondNumber;
+  constructor(firstNumber, secondNumber) {
+    // this.number = number;
+    this.firstNumber = firstNumber;
+    this.secondNumber = secondNumber;
   }
   display(number) {
     display.value += number;
@@ -15,7 +16,16 @@ class Calculator {
     document.execCommand("Copy");
   }
   operate(optr) {
-	
+    let dummy = display.value;
+    let index = display.value.indexOf(optr);
+	// dummy=
+	this.firstNumber=dummy.slice(0,index);
+	this.secondNumber=dummy.slice(index,dummy.length)
+	console.log(this.firstNumber)
+	console.log(this.secondNumber)
+    //   console.log(index);
+    // display.value
+    // }
   }
 }
 function copyAnswer() {
@@ -37,8 +47,16 @@ number.forEach((e) => {
 });
 operator.forEach((e) => {
   e.addEventListener("click", () => {
-    calculator.operate(e.innerText);
-    calculator.display(e.innerText);
+    //   if(display.inner)
+    let d = display.value;
+    // console.log(d);
+    let len = d.length;
+    let num = /^[0-9]+$/;
+    if (num.test(d[len - 1]) == true) {
+      calculator.display(e.innerText);
+
+      calculator.operate(e.innerText);
+    }
   });
 });
 clear.addEventListener("click", () => {

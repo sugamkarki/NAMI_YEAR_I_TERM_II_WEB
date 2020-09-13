@@ -13,6 +13,7 @@ const form = {
     document.getElementById("myForm").style.display = "none";
   },
 };
+
 const formId = {
   name: document.getElementById("name"),
   email: document.getElementById("email"),
