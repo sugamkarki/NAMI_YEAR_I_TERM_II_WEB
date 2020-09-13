@@ -39,6 +39,7 @@ const feedback = {
     this.message.innerHTML = formId.message.value;
     this.feedbackId.style.display = "block";
     this.send.addEventListener("click", () => {
+      alert("Message Sent")
       document.location.reload();
     });
     this.edit.addEventListener("click", () => {

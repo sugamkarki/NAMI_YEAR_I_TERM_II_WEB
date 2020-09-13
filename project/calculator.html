@@ -1,68 +1,58 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-  <!--<![endif]-->
+<!-- declares html -->
+<html>
+  <!-- starting of head -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Calc</title>
+    <!-- adds title -->
+    <title>Calculator</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- links css -->
     <link rel="stylesheet" href="calculator.css" />
+    <!-- links bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <style>
-      .container {
-        border: 5px green solid;
-        padding: 10px;
-        margin-top: 100px;
-
-        align-content: center;
-        align-items: center;
-      }
-      .row {
-        padding: 0px;
-        margin: 0px;
-      }
-      .col {
-        padding: 0px;
-        margin: 0px;
-      }
-      .buttons {
-        /* background-color: black; */
-        /* padding:20px; */
-        margin: 0px;
-        width: 70px;
-        /* width: ; */
-      }
-    </style>
+    <!-- ending of head -->
   </head>
+  <!-- starting of body -->
   <body>
+    <!-- declaration of div -->
     <div class="container" style="width: 420px">
+    <!-- declaration of div -->
+
       <div class="row" style="width: 390px">
+    <!-- declaration of input -->
+
         <input
           type="text"
           class="btn btn-outline-danger"
           style="width: 380px; height: 100px; margin-bottom: 20px"
           id="display"
         />
-        <!-- </button> -->
       </div>
+    <!-- declaration of div -->
+
       <div class="row" style="width: 390px">
+    <!-- declaration of div -->
+
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">9</button>
         </div>
+    <!-- declaration of div -->
+
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">8</button>
         </div>
+    <!-- declaration of div -->
+
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">7</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button
             class="btn btn-outline-danger buttons"
@@ -72,6 +62,7 @@
             <b>C</b>
           </button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button
             class="btn btn-outline-danger buttons"
@@ -82,16 +73,21 @@
           </button>
         </div>
       </div>
+    <!-- declaration of div -->
       <div class="row" style="width: 390px">
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">6</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">5</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">4</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button
             class="btn btn-outline-danger buttons opr"
@@ -100,27 +96,36 @@
             /
           </button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons opr">*</button>
         </div>
       </div>
+    <!-- declaration of div -->
       <div class="row" style="width: 390px">
+    <!-- declaration of div -->
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">3</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">2</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons dig">1</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons opr">+</button>
         </div>
+    <!-- declaration of div -->
         <div class="col" style="width: 80px; height: 50px">
           <button class="btn btn-outline-danger buttons opr">-</button>
         </div>
       </div>
+    <!-- declaration of div -->
       <div class="row" style="width: 390px">
         <div class="col" style="width: 150px; height: 50px">
           <button
@@ -130,6 +135,7 @@
             0
           </button>
         </div>
+    <!-- declaration of div -->
         <div
           class="col"
           style="width: 220px; height: 50px; margin: 0px; padding: 0px"
@@ -144,6 +150,7 @@
         </div>
       </div>
     </div>
+    <!-- links javascript to the file -->
     <script src="calculator.js" async defer></script>
   </body>
 </html>

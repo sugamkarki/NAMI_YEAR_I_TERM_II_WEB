@@ -11,9 +11,6 @@
     <title>Contact ME</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-
-    
-
     <!-- My CSS -->
     <!-- <link rel="stylesheet" href="style.css" /> -->
 
@@ -39,35 +36,55 @@
 
 <body >
     <!-- start of header -->
-    <!-- <a name="top"></a> -->
     <header id="header">
+        <!-- declares navigation bar -->
         <nav class="container navigation pt-3">
+            <!-- declares div with class row -->
             <div class="row">
+                 <!-- declaration of div -->
                 <div class="col-6 d-flex justify-content-start align-items-center">
+                    <!-- declares a div -->
                     <div class="logo">
+                        <!-- adds a icon -->
                         <i class="fas fa-2x fa-jedi text-success pb-3"></i>
-
+                        <!-- declares an anchor tag -->
                     <a href="index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
+                    <!-- ends the div  -->
                     </div>
                 </div>
+                <!-- declares a div -->
                 <div class="col-6 pt-2">
+                    <!-- declares a div -->
                     <div class="row text-center p-0 d-flex justify-content-end align-items-center navbur">
+                        <!-- declares a div -->
                         <div class="col-3">
                             <a href="cv.html" class="text-white navigation-link nav1">CV</a>
+                            <!-- ends the div -->
                         </div>
+                        <!-- declares a div -->
                         <div class="col-3 nav1"">
                             <a href="portfolio.html" class="text-white navigation-link ">Portfolio</a>
+                            <!-- ends the div -->
                         </div>
+                        <!-- declares a div -->
                         <div class="col-3 nav1"">
                             <a href="contact.html" class="text-white navigation-link ">Contact</a>
+                            <!-- ends the div -->
                         </div>
+                        <!-- declares a div -->
                         <div class="col-3 nav1"">
                             <a href="index.html" class="text-white navigation-link">LANDING PAGE</a>
+                            <!-- ends the div -->
                         </div>
+                        <!-- ends the div -->
                     </div>
+                    <!-- ends the div -->
                 </div>
+                <!-- ends the div -->
             </div>
+            <!-- ends the nav bar -->
         </nav>
+        <!-- ends the header -->
     </header>
     <!-- creation of class "cont" which holds the container -->
     <div class="cont" id="">
@@ -104,57 +121,69 @@
         <!-- ending of division -->
     </div>
 
-    <!-- starting of footer with background colour prespecified -->
+    <!-- starting of footer -->
     <footer id="footer">
+        <!-- declares a main div tag for footer -->
         <div class="main-content">
+            <!-- declares a div tag -->
             <div class="left box">
-                <!-- <h2>
-              Contact me</h2> -->
+                <!-- declares a content div -->
                 <div class="content">
-
+                    <!-- declares a div for social links -->
                     <div class="social">
+                        <!-- links to facebook -->
                         <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                        <!-- link to linkedin -->
                         <a href="https://www.linkedin.com/in/sugam-karki-4877261a3/"><span
                                 class="fab fa-linkedin"></span></a>
-                        <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                            <!-- link to instagram -->
+                                <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                                <!-- links to my github account -->
                         <a href="https://github.com/magusikrak"><span class="fab fa-github-square"></span></a>
+                        <!-- links to my twitter -->
                         <a href="https://twitter.com"><span class="fab fa-twitter-square"></span></a>
+                        <!-- links to freecodecamp -->
                         <a href="https://freecodecamp.com"><span class="fab fa-free-code-camp"></span></a>
-
+                            <!-- ends the div -->
                     </div>
 
-                  
+                  <!--declares a button for pop up box  -->
     <button class="opnBtn" onclick="openForm()">
+        <!-- adds icon -->
         <i class="fas fa-2x fa-envelope"></i>
     </button>
-
+    <!--main div for pop up  -->
     <div class="popupDiv" id="myForm">
-
+        <!-- adds a form -->
         <form action="/action_page.php" class="popupForm">
-
+            <!-- adds a paragraph tag -->
             <p class="textPopMessage">Message Box</p>
-
-            <!-- <label for="message"><b>Message</b></label><br> -->
+            <!-- inputs email -->
             <input type="email" class="popEmail"   placeholder="Your email">
+            <!-- inputs phone number -->
             <input type="number" class="popNumber" name="" id="" placeholder="your phone number">
-
+            <!-- inputs the message -->
             <textarea placeholder="Please Enter your Message" name="message"  ></textarea>
-
-
+            <!-- submits the form -->
             <input type="submit" class="btnSubmit" value="Submit" >
-
+            <!-- closes the form -->
             <button type="button" class="btnCancel" onclick="closeForm()">Close Form</button>
-
+                <!-- ending of form tag -->
         </form>
-
+        <!-- ending of the division -->
     </div>
+     <!-- ending of the division -->
                 </div>
+                 <!-- ending of the division -->
             </div>
+             <!-- ending of the division -->
         </div>
-        <!-- <a href="#top" ><i class="fas fa-2x fa-arrow-up up-link"></i></a> -->
+         <!-- ending of the footer -->
     </footer>
-    <!-- ending of body  -->
+    <!-- links the javascript to html -->
     <script src="contact.js"></script>
+
+    <!-- ending of body  -->
 
 </body>
 <!-- ending of html  -->

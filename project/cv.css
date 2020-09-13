@@ -10,30 +10,6 @@ header {
   /* border: 2px solid red; */
 }
 
-/* .logo {
-    border: 4px solid transparent;
-  }
-  
-  .logo:hover {
-    border-bottom: 4px solid #da0e0e;
-  }
-  
-  /* Main Heading Font */
-/* .name-heading {
-    font-family: "Roboto Slab", serif;
-    font-size: 80px;
-  }
-  
-  .name-heading:hover {
-    font-size: 100px;
-    border-bottom: 2px solid orangered;
-  }
-  
-  .name-intro {
-    font-size: 30px;
-  }
-   */
-/* Navigation */
 .navigation-link {
   border: 2px solid transparent;
 }
@@ -50,7 +26,6 @@ header {
 
 /* ANCHOR ending of header */
 
-
 /* --------------------------------------header-------------------------------- */
 
 body {
@@ -61,7 +36,7 @@ body {
   /* settinf inline-height to 22px */
   line-height: 22px;
   /* settinf colour to #ff0404 */
-  color: #1B1464;
+  color: #1b1464;
 }
 
 .big {
@@ -97,7 +72,7 @@ body {
   /* setting flex-wrap to wrap */
   flex-wrap: wrap;
   /* setting background-color to red */
-  background-color: #1B1464;
+  background-color: #1b1464;
   /* setting width to 50% */
   width: 50%;
 }
@@ -237,7 +212,7 @@ body {
 
 .cv .right_side .big {
   /* setting color to #e5dbe6 */
-  color: #0652DD;
+  color: #0652dd;
 }
 
 .cv .right_side .resume_work ul,
@@ -272,7 +247,6 @@ body {
   margin-bottom: 0;
 }
 
-
 /* ---------------------footer-------------------------- */
 footer {
   /* position: fixed; */
@@ -293,14 +267,13 @@ footer {
   float: center;
 }
 
-
 /* .box .content{
     margin: 20px 0 0 0;
     position: relative;
   } */
 .box .content:before {
   /* position: absolute; */
-  content: '';
+  content: "";
   /* top: -10px; */
   height: 2px;
   width: 100%;
@@ -309,7 +282,7 @@ footer {
 
 .box .content:after {
   /* position: absolute; */
-  content: '';
+  content: "";
   height: 2px;
   width: 15%;
   /* background: #f12020; */
@@ -370,7 +343,6 @@ footer {
 }
 
 .opnBtn {
-
   background-color: #e1b12c;
 
   color: #7f8fa6;
@@ -391,7 +363,6 @@ footer {
   border-radius: 40px;
 
   /* width: 280px; */
-
 }
 
 .opnBtn:hover {
@@ -431,19 +402,16 @@ footer {
   border: 3px solid #f1f1f1;
 
   /* z-index: 9; */
-
 }
 
 /* Add styles to the form container */
 
 .popupForm {
-
   max-width: 300px;
 
   padding: 10px;
 
   background-color: white;
-
 }
 
 /* Full-width textarea */
@@ -464,23 +432,19 @@ footer {
 
   min-height: 150px;
   border-radius: 20px;
-
 }
 
 /* When the textarea gets focus, do something */
 
 .popupForm textarea:focus {
-
   background-color: #273c75;
 
   outline: none;
-
 }
 
 /* Set a style for the submit/send button */
 
 .popupForm {
-
   background-color: #718093;
 
   color: white;
@@ -497,20 +461,15 @@ footer {
 
   opacity: 1;
   border-radius: 20px;
-
 }
 
 /* Add a red background color to the btnCancel button */
-
-
 
 /* Add some hover effects to buttons */
 
 .popupForm .btnSubmit:hover,
 .opnBtn:hover {
-
   opacity: 1;
-
 }
 
 @media all and (min-width: 360px) and (max-width: 767px) {
@@ -746,7 +705,10 @@ footer {
     /* setting  margin bottom to 0 */
     margin-bottom: 0;
   }
-
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+}
+@media all and (min-width: 1280px) and (max-width: 1920px) {
 }
 
 .up-link {

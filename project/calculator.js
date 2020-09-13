@@ -1,6 +1,5 @@
 class Calculator {
   constructor(firstNumber,secondNumber) {
-	// this.number = number;
 	this.firstNumber=firstNumber;
 	this.secondNumber=secondNumber;
   }
