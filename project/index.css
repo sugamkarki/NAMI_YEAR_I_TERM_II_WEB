@@ -117,32 +117,38 @@ header {
 
 /* NOTE foOTER */
 footer {
-  /* position: fixed; */
-  /* bottom: 0px;
-  width: 100%; */
-  opacity: 0.8;
+  /* setting the height to 90px */
   height: 90px;
+  /* setting the background to 111 */
   background: #111;
 }
 
 .main-content {
-  /* display: inline-block; */
+  /* setting the float to center */
   float: center;
 }
 
 .main-content .box {
+  /* setting the flex-basis to 50%, padding to 5px 10px, float to center */
   flex-basis: 50%;
   padding: 5px 10px;
   float: center;
 }
 
-.box .content:before { 
+/* .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  } */
+.box .content:before {
+/* setting the content to "", height to 2px, width to 100% */
+  content: "";
   height: 2px;
   width: 100%;
+  /* background: #1a1a1a; */
 }
 
 .box .content:after {
-  /* position: absolute; */
+/* setting the content to "", height to 2px, width to 15%, top to -10px */
   content: "";
   height: 2px;
   width: 15%;
@@ -151,19 +157,24 @@ footer {
 }
 
 .left .content p {
+/* setting the text-align to justify */
   text-align: justify;
   /* float: center; */
 }
 
 .left .content .social {
+/* setting the margin to 20px 0 0 0 */
   margin: 20px 0 0 0;
+  /* float: center; */
 }
 
 .left .content .social a {
+/* setting the padding to 0 2px */
   padding: 0 2px;
 }
 
 .left .content .social a span {
+  /* setting the height to 40px, width to 40px, background to 1a1a1a, line-height to 40px, text-align to center, font-size to 18px, border-radius to 5px, transition to 0.3s */
   height: 40px;
   width: 40px;
   background: #1a1a1a;
@@ -175,14 +186,14 @@ footer {
 }
 
 .left .content .social a span:hover {
+/* setting the background to f12020 */
   background: #f12020;
 }
-
-/* //ANCHOR */
-
+/* ANCHOR chathox */
 /* Button used to open the chat form - fixed at the bottom of the page */
 .popEmail,
 .popNumber {
+  /* setting the width to 260px, height to 50px, color to f5f6fa, border-radius to 20px */
   width: 260px;
   height: 50px;
   color: #f5f6fa;
@@ -190,17 +201,19 @@ footer {
   /* height: ; */
   /* width: auto; */
 }
-
 .popEmail:focus,
 .popNumber:focus {
+  /* setting the background-color to 273c75 */
   background-color: #273c75;
- }
-
+  /* height: ; */
+  /* width: auto; */
+}
 .textPopMessage p {
+  /* setting the font-size to 40px */
   font-size: 40px;
 }
-
 .opnBtn {
+  /* setting the background-color to e1b12c, color to 7f8fa6, padding to 16px 20px, border to none, cursor to pointer, opacity to 0.8, position to fixed, bottom to 23px, right to 28px, border-radius to 40px */
   background-color: #e1b12c;
 
   color: #7f8fa6;
@@ -222,32 +235,32 @@ footer {
 
   /* width: 280px; */
 }
-
 .opnBtn:hover {
+  /* setting the background-color to ffbb00 */
   background-color: #ffbb00;
 }
-
 .btnCancel {
+  /* setting the border-radius to 40px, width to 280px, height to 50px */
   border-radius: 40px;
   width: 280px;
   height: 50px;
 }
-
 .btnCancel:hover,
 .btnSubmit:hover {
+  /* setting the background-color to rgb(204, 129, 38)*/
   background-color: rgb(204, 129, 38);
   /* height: 500px; */
 }
-
 .btnSubmit {
+  /* setting the border-radius to 40px, width to 280px, height to 50px */
   border-radius: 40px;
   width: 280px;
   height: 50px;
 }
-
 /* The popup chat - hidden by default */
 
 .popupDiv {
+    /* setting the border-radius to 20px, display to none, position to fixed, bottom to 0, right to 15px, border to 3px solid f1f1f1*/
   border-radius: 20px;
   display: none;
 
@@ -262,27 +275,10 @@ footer {
   /* z-index: 9; */
 }
 
-.up-link {
-  position: fixed;
-  left: 15px;
-  width: 30px;
-  bottom: 30px;
-  border-radius: 60px;
-  background-color: #9ccc65;
-}
-
-.up-link:hover {
-  /* position: fixed;
-  left: 15px;
-  width: 30px;
-  bottom: 30px;
-  border-radius: 60px; */
-  background-color: #88fc04;
-}
-
 /* Add styles to the form container */
 
 .popupForm {
+/* setting the max-width to 300 px, padding to 10px, background-color to white */
   max-width: 300px;
 
   padding: 10px;
@@ -293,6 +289,7 @@ footer {
 /* Full-width textarea */
 
 .popupForm textarea {
+  /* setting the color to f5f6fa, width to 100%, padding to 15px, margin to 5px 0 22px 0, border to none, background to f1f1f1, resize to none, min-height to 150px, border-radius to 20px */
   color: #f5f6fa;
   width: 100%;
 
@@ -313,6 +310,7 @@ footer {
 /* When the textarea gets focus, do something */
 
 .popupForm textarea:focus {
+  /* setting the background-color to 273c75, outline to none */
   background-color: #273c75;
 
   outline: none;
@@ -321,6 +319,7 @@ footer {
 /* Set a style for the submit/send button */
 
 .popupForm {
+   /* setting the background-color to 718093, color to white, padding to 16px 20px, border to none, cursor to pointer, width to 100%, margin-bottom to 10px, opacity to 1, border-radius to 20px */
   background-color: #718093;
 
   color: white;
@@ -345,38 +344,43 @@ footer {
 
 .popupForm .btnSubmit:hover,
 .opnBtn:hover {
+  /* setting the opacity to 1 */
   opacity: 1;
 }
 
 @media all and (min-width: 360px) and (max-width: 767px) {
   .navbur {
+    /* sets the display to flex */
     display: flex;
+    /* sets flex-direction to column */
     flex-direction: column;
   }
 
   .nav1 {
+    /* sets the flex to 1 */
     flex: 1;
-    /* border: 2px solid yellow; */
   }
 
   .name {
+    /* sets the font-size to 10px */
     font-size: 10px;
   }
 
   .myname {
+    /* sets the font size to 20 px */
     font-size: 20px;
   }
 
   .paragraph {
+    /* sets the height to 2000 px */
     height: 2000px;
-    /* overflow: hidden; */
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
   .paragraph {
+    /* sets the height to 1000 px */
     height: 1000px;
-    /* overflow: hidden; */
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1920px) {
@@ -384,16 +388,19 @@ footer {
 
 @media screen and (max-width: 900px) {
   footer {
-    /* position: relative; */
+    /* sets the bottom position to 0px */
     bottom: 0px;
   }
 
   .main-content {
+    /* sets the flex-wrap to wrap */
     flex-wrap: wrap;
+    /* sets the flex-direction to column */
     flex-direction: column;
   }
 
   .main-content .box {
+    /* sets the fmargin to 5px and 0px */
     margin: 5px 0;
   }
 }
