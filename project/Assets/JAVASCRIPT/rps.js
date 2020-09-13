@@ -3,7 +3,6 @@ var paper = document.getElementById("paper");
 var scissors = document.getElementById("scissors");
 var left = document.getElementById("left");
 var right = document.getElementById("right");
-
 var leftSide;
 var rightSide;
 rock.addEventListener("click", functionRock);

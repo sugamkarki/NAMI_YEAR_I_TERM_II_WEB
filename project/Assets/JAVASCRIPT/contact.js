@@ -48,7 +48,7 @@ const feedback = {
     });
   },
 };
-const validity = {
+let validity = {
   validName: new Boolean(),
   validEmail: new Boolean(),
   validPhone: new Boolean(),

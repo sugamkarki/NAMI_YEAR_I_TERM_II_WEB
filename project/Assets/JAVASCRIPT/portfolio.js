@@ -20,7 +20,7 @@ function openForm() {
 function openPoing() {
 	window.open(
 		"game.html",
-		"Win 2",
+		"Poing Game",
 		"width=1300, height=600, top=100, left=100, resizable=1, menubar=yes",
 		true
 	);
@@ -28,7 +28,7 @@ function openPoing() {
 function openRPS() {
 	window.open(
 		"RockPaperScissors.html",
-		"Win 2",
+		"RockPaperScissors",
 		"width=1300, height=600, top=100, left=100, resizable=1, menubar=yes",
 		true
 	);
@@ -36,7 +36,7 @@ function openRPS() {
 function openCalc() {
 	window.open(
 		"calculator.html",
-		"Win 2",
+		"Calculator",
 		"width=1300, height=600, top=100, left=100, resizable=1, menubar=yes",
 		true
 	);
