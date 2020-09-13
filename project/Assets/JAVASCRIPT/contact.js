@@ -27,6 +27,8 @@ const errorMessage = {
   phone: document.getElementById("errorPhonePop"),
   message: document.getElementById("errorMessagePop"),
 };
+
+
 const feedback = {
   name: document.getElementById("feedbackName"),
   feedbackId: document.getElementById("feedback"),
@@ -34,13 +36,14 @@ const feedback = {
   message: document.getElementById("feedbackMessage"),
   send: document.getElementById("feedbackSendButton"),
   edit: document.getElementById("feedbackEditButton"),
+  
   openFeedback: function () {
     this.name.innerHTML = formId.name.value;
     this.email.innerHTML = formId.email.value;
     this.message.innerHTML = formId.message.value;
     this.feedbackId.style.display = "block";
     this.send.addEventListener("click", () => {
-      alert("Message Sent")
+      alert("Message Sent");
       document.location.reload();
     });
     this.edit.addEventListener("click", () => {
@@ -48,13 +51,15 @@ const feedback = {
     });
   },
 };
+
+
+
 let validity = {
   validName: new Boolean(),
   validEmail: new Boolean(),
   validPhone: new Boolean(),
   validMessage: new Boolean(),
 };
-
 formId.submit.addEventListener("click", checkDatasFromSubmit);
 formId.name.addEventListener("blur", checkDatas);
 formId.email.addEventListener("blur", checkDatas);
@@ -89,44 +94,37 @@ function checkDatas() {
 const addErrorMessage = {
   errorNameAdd: function () {
     errorMessage.name.style.display = "block";
-    formId.name.style.border="2px red solid";
+    formId.name.style.border = "2px red solid";
   },
   errorEmailAdd: function () {
     errorMessage.email.style.display = "block";
-    formId.email.style.border="2px red solid";
-
+    formId.email.style.border = "2px red solid";
   },
   errorPhoneAdd: function () {
     errorMessage.phone.style.display = "block";
-    formId.phone.style.border="2px red solid";
-
+    formId.phone.style.border = "2px red solid";
   },
   errorMessageAdd: function () {
     errorMessage.message.style.display = "block";
-    formId.message.style.border="2px red solid";
-
+    formId.message.style.border = "2px red solid";
   },
 };
 const removeErrorMessage = {
   errorNameRemove: function () {
     errorMessage.name.style.display = "none";
-    formId.name.style.border="none";
-
+    formId.name.style.border = "none";
   },
   errorEmailRemove: function () {
     errorMessage.email.style.display = "none";
-    formId.email.style.border="none";
-
+    formId.email.style.border = "none";
   },
   errorPhoneRemove: function () {
     errorMessage.phone.style.display = "none";
-    formId.phone.style.border="none";
-
+    formId.phone.style.border = "none";
   },
   errorMessageRemove: function () {
     errorMessage.message.style.display = "none";
-    formId.message.style.border="none";
-
+    formId.message.style.border = "none";
   },
 };
 function checkError() {

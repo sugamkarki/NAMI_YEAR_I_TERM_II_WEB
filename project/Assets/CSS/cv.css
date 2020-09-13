@@ -8,6 +8,9 @@
 header {
   background-color: #111;
   /* border: 2px solid red; */
+ 
+    font-family: "Baloo Tamma 2", cursive;
+  
 }
 
 .navigation-link {

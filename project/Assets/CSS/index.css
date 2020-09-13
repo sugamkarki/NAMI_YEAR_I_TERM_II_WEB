@@ -2,10 +2,11 @@ body {
   background: #03a9f4;
   font-family: "Baloo Tamma 2", cursive;
 }
-
 header {
   /* sets background colour to #111 */
   background-color: #111;
+  font-family: "Baloo Tamma 2", cursive;
+
 }
 .logo {
   /* sets the border to 4px solid transparent */
