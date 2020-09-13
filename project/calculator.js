@@ -38,7 +38,7 @@ number.forEach((e) => {
 });
 operator.forEach((e) => {
   e.addEventListener("click", () => {
-    calculator.optr(e.innerText);
+    calculator.operate(e.innerText);
     calculator.display(e.innerText);
   });
 });

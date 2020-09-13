@@ -87,29 +87,44 @@ function checkDatas() {
 const addErrorMessage = {
   errorNameAdd: function () {
     errorMessage.name.style.display = "block";
+    formId.name.style.border="2px red solid";
   },
   errorEmailAdd: function () {
     errorMessage.email.style.display = "block";
+    formId.email.style.border="2px red solid";
+
   },
   errorPhoneAdd: function () {
     errorMessage.phone.style.display = "block";
+    formId.phone.style.border="2px red solid";
+
   },
   errorMessageAdd: function () {
     errorMessage.message.style.display = "block";
+    formId.message.style.border="2px red solid";
+
   },
 };
 const removeErrorMessage = {
   errorNameRemove: function () {
     errorMessage.name.style.display = "none";
+    formId.name.style.border="none";
+
   },
   errorEmailRemove: function () {
     errorMessage.email.style.display = "none";
+    formId.email.style.border="none";
+
   },
   errorPhoneRemove: function () {
     errorMessage.phone.style.display = "none";
+    formId.phone.style.border="none";
+
   },
   errorMessageRemove: function () {
     errorMessage.message.style.display = "none";
+    formId.message.style.border="none";
+
   },
 };
 function checkError() {
