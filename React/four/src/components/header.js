@@ -1,4 +1,6 @@
 import React, { Component as Cc } from "react";
+// import '../css/style.css'
+import '../css/style.css'
 
 const css={
     header:{
@@ -19,7 +21,11 @@ class Header extends Cc {
   render() {
     return (
       <header >
-        <div className="logo">logo</div>
+        <div className="logo" onClick={()=>
+        {
+          // document.getElementsByClassName('logo').backgroundColor="black";
+          console.log("object")
+        }}>logo</div>
         <div>
           <input className="textInput" type="text"></input>
           {/* <button className="btn" name="clickme">Button</button> */}
