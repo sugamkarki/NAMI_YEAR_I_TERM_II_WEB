@@ -1,7 +1,9 @@
 body{
+    /* background-color: black; */
 }
 header{
     background-color: aqua;
+    border-radius: 40px;
 
 }
 .logo
