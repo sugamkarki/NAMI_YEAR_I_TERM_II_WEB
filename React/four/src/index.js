@@ -15,4 +15,4 @@ class Index extends Component {
     <NewsItems news={this.state.newsItems}/></div>;
   }
 }
-ReactDOM.render(<Index/>,document.getElementById('root'))
+ReactDOM.render(<Index/>,document.getElementById('root')) 

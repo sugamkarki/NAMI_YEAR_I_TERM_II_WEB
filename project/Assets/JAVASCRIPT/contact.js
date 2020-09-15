@@ -61,10 +61,58 @@ let validity = {
   validMessage: new Boolean(),
 };
 formId.submit.addEventListener("click", checkDatasFromSubmit);
-formId.name.addEventListener("blur", checkDatas);
-formId.email.addEventListener("blur", checkDatas);
-formId.phone.addEventListener("blur", checkDatas);
-formId.message.addEventListener("blur", checkDatas);
+
+formId.name.addEventListener("blur", ()=>
+{
+  checkName();
+  if(validity.validName==false)
+  {
+    addErrorMessage.errorNameAdd();
+  }
+  else
+  {
+    removeErrorMessage.errorNameRemove();
+  }
+});
+
+formId.email.addEventListener("blur", ()=>
+{
+  checkEmail();
+  if(validity.validEmail==false)
+  {
+    addErrorMessage.errorEmailAdd();
+  }
+  else
+  {
+    removeErrorMessage.errorEmailRemove();
+  }
+});
+
+formId.phone.addEventListener("blur", ()=>
+{
+  checkPhone();
+  if(validity.validPhone==false)
+  {
+    addErrorMessage.errorPhoneAdd();
+  }
+  else
+  {
+    removeErrorMessage.errorPhoneRemove();
+  }
+});
+formId.message.addEventListener("blur", ()=>
+{
+  checkMessage();
+  if(validity.validMessage==false)
+  {
+    addErrorMessage.errorMessageAdd();
+  }
+  else
+  {
+    removeErrorMessage.errorMessageRemove();
+  }
+});
+
 function variablesWithValues() {
   this.name = formId.name.value;
   this.email = formId.email.value;

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import NewsListItem from "./news_list_item";
 
-// const NewsList = (props) => {
-//   // console.log(props.news)
-//   const item = props.news.map((e) => {
-//     return <NewsListItem item={e}/>;
-//   });
-//   return <div>{item}</div>;
-// };
+const NewsList = (props) => {
+  // console.log(props.news)
+  const item = props.news.map((e) => {
+    return <NewsListItem items={e}/>;
+  });
+  return <div>{item}</div>;
+};
 
 class NewsList extends Component {
   constructor(props) {
@@ -16,11 +16,11 @@ class NewsList extends Component {
     // this.item
   }
    item = this.props.news.map((e) => {
-    return <NewsListItem item={e}/>;
-  });
+        return <NewsListItem item={e}/>;
+      });
 
   render() {
-    return {item};
+    return <div></div>;
   }
 }
 
