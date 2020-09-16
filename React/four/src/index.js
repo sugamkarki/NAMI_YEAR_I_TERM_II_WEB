@@ -12,7 +12,9 @@ class Index extends Component {
     }
   render() {
     return <div><Header/>
-    <NewsItems news={this.state.newsItems}/></div>;
+    <NewsItems news={this.state.newsItems}>
+      hello world bro
+      </NewsItems></div>;
   }
 }
 ReactDOM.render(<Index/>,document.getElementById('root')) 
