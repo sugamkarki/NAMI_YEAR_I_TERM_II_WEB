@@ -1,18 +1,13 @@
-function openForm() {
-  form.open();
-}
+import PopFormOpenClose from "./popFormOpenClose.js";
+document.getElementById("openForm").addEventListener("click", () => {
+  let popFormOpenClose = new PopFormOpenClose();
+  popFormOpenClose.open();
+});
 
-function closeForm() {
-  form.close();
-}
-const form = {
-  open: function () {
-    document.getElementById("myForm").style.display = "block";
-  },
-  close: function () {
-    document.getElementById("myForm").style.display = "none";
-  },
-};
+document.getElementById("closeForm").addEventListener("click", () => {
+  let popFormOpenClose = new PopFormOpenClose();
+  popFormOpenClose.close();
+});
 
 const formId = {
   name: document.getElementById("name"),
@@ -28,7 +23,6 @@ const errorMessage = {
   message: document.getElementById("errorMessagePop"),
 };
 
-
 const feedback = {
   name: document.getElementById("feedbackName"),
   feedbackId: document.getElementById("feedback"),
@@ -36,7 +30,7 @@ const feedback = {
   message: document.getElementById("feedbackMessage"),
   send: document.getElementById("feedbackSendButton"),
   edit: document.getElementById("feedbackEditButton"),
-  
+
   openFeedback: function () {
     this.name.innerHTML = formId.name.value;
     this.email.innerHTML = formId.email.value;
@@ -52,8 +46,6 @@ const feedback = {
   },
 };
 
-
-
 let validity = {
   validName: new Boolean(),
   validEmail: new Boolean(),
@@ -62,53 +54,37 @@ let validity = {
 };
 formId.submit.addEventListener("click", checkDatasFromSubmit);
 
-formId.name.addEventListener("blur", ()=>
-{
+formId.name.addEventListener("blur", () => {
   checkName();
-  if(validity.validName==false)
-  {
+  if (validity.validName == false) {
     addErrorMessage.errorNameAdd();
-  }
-  else
-  {
+  } else {
     removeErrorMessage.errorNameRemove();
   }
 });
 
-formId.email.addEventListener("blur", ()=>
-{
+formId.email.addEventListener("blur", () => {
   checkEmail();
-  if(validity.validEmail==false)
-  {
+  if (validity.validEmail == false) {
     addErrorMessage.errorEmailAdd();
-  }
-  else
-  {
+  } else {
     removeErrorMessage.errorEmailRemove();
   }
 });
 
-formId.phone.addEventListener("blur", ()=>
-{
+formId.phone.addEventListener("blur", () => {
   checkPhone();
-  if(validity.validPhone==false)
-  {
+  if (validity.validPhone == false) {
     addErrorMessage.errorPhoneAdd();
-  }
-  else
-  {
+  } else {
     removeErrorMessage.errorPhoneRemove();
   }
 });
-formId.message.addEventListener("blur", ()=>
-{
+formId.message.addEventListener("blur", () => {
   checkMessage();
-  if(validity.validMessage==false)
-  {
+  if (validity.validMessage == false) {
     addErrorMessage.errorMessageAdd();
-  }
-  else
-  {
+  } else {
     removeErrorMessage.errorMessageRemove();
   }
 });

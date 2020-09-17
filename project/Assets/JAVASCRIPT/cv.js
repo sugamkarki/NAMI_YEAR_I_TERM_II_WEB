@@ -1,18 +1,10 @@
-function openForm() {
-  form.open();
-}
+import PopFormOpenClose from "./popFormOpenClose.js";
+document.getElementById("openForm").addEventListener("click", () => {
+  let popFormOpenClose = new PopFormOpenClose();
+  popFormOpenClose.open();
+});
 
-function closeForm() {
-  form.close();
-}const form={
-  open:function()
-  {
-    document.getElementById("myForm").style.display = "block";
-
-  },
-  close:function()
-  {
-    document.getElementById("myForm").style.display = "none";
-
-  }
-}
+document.getElementById("closeForm").addEventListener("click", () => {
+  let popFormOpenClose = new PopFormOpenClose();
+  popFormOpenClose.close();
+});

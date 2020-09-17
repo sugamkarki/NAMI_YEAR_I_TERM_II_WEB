@@ -1,13 +1,10 @@
-export class Person{
-    name;
-    age;
-    constructor(name,age)
+export default class ClickedButton{
+    constructor()
     {
-        this.name=name;
-        this.age=age;
     }
-       rtr()
+    clicked()
     {
-        console.log("my name is "+this.name+" and age is "+this.age)
+        console.log("object")
+
     }
 }
