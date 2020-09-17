@@ -8,11 +8,12 @@ import Body from './body'
 class Index extends Component {
   state={
     news:JSON,
+    typed:'Hello'
   }
   render() {
     return (
       <div>
-        <Header />
+        <Header typed={this.state.typed}/>
         <Body news={this.state.news}/>
       </div>
     );
