@@ -1,27 +1,41 @@
-<!doctype html>
-<html lang="en">
+<!-- Specifyies what type of  document is to be expected to the browser-->
+<!DOCTYPE html>
+<!-- declaration of language of document -->
+<html lang="en-us">
+<!-- starting of head tag -->
 
 <head>
-    <title>LANDING PAGE</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!--specifies the character encoding in html  -->
+    <meta charset="UTF-8" />
+    <!-- Title of the website-->
+    <title>Contact ME</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- adds css to the code -->
-    <link rel="stylesheet" href="Assets/CSS/index.css">
-    <!-- adds bootstrap to the code -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- My CSS -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
         rel="stylesheet" />
-        <!-- adds fontawesome -->
-    <script src="https://kit.fontawesome.com/996973c893.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
-</head>
 
-<body>
+    <!-- gives browser instructions about the controlling of the page's dimensions and scaling  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking HTMl file with CSS -->
+    <link rel="stylesheet" href="../CSS/contact.css" type="text/css" />
+
+    <!--linking font awesome kit code-->
+
+    <script src="https://kit.fontawesome.com/0f25f5010f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+    <!-- ending of head tag -->
+</head>
+<!-- start of body tag -->
+
+<body >
     <!-- start of header -->
     <header id="header">
         <!-- declares navigation bar -->
@@ -35,7 +49,7 @@
                         <!-- adds a icon -->
                         <i class="fas fa-2x fa-jedi text-success pb-3"></i>
                         <!-- declares an anchor tag -->
-                    <a href="index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
+                    <a href="../../index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
                     <!-- ends the div  -->
                     </div>
                 </div>
@@ -45,22 +59,22 @@
                     <div class="row text-center p-0 d-flex justify-content-end align-items-center navbur">
                         <!-- declares a div -->
                         <div class="col-3">
-                            <a href="Assets/HTML/cv.html" class="text-white navigation-link nav1">CV</a>
+                            <a href="cv.html" class="text-white navigation-link nav1">CV</a>
                             <!-- ends the div -->
                         </div>
                         <!-- declares a div -->
-                        <div class="col-3 nav1"">
-                            <a href="Assets/HTML/portfolio.html" class="text-white navigation-link ">Portfolio</a>
+                        <div class="col-3 nav1">
+                            <a href="portfolio.html" class="text-white navigation-link ">Portfolio</a>
                             <!-- ends the div -->
                         </div>
                         <!-- declares a div -->
-                        <div class="col-3 nav1"">
-                            <a href="Assets/HTML/contact.html" class="text-white navigation-link ">Contact</a>
+                        <div class="col-3 nav1">
+                            <a href="contact.html" class="text-white navigation-link ">Contact</a>
                             <!-- ends the div -->
                         </div>
                         <!-- declares a div -->
-                        <div class="col-3 nav1"">
-                            <a href="index.html" class="text-white navigation-link">LANDING PAGE</a>
+                        <div class="col-3 nav1">
+                            <a href="../../index.html" class="text-white navigation-link">LANDING PAGE</a>
                             <!-- ends the div -->
                         </div>
                         <!-- ends the div -->
@@ -73,63 +87,40 @@
         </nav>
         <!-- ends the header -->
     </header>
-    <!-- Main Container -->
-    <div class="main-div">
-        <!-- creates a new container -->
-        <div class="main-container container">
-            <!-- creates a row -->
-            <div class="row main_row">
-                <!-- creates a div -->
-                <div class="col-7">
-                    <!-- adds the image -->
-                    <img src="assets/Images/myPic.jpg" class="img-fluid" alt="My Picture"/>
-                    <!-- ends the div -->
-                </div>
-                <!-- cretes a name div -->
-                <div class="col-5 name">
-                        <!-- creates a paragraph -->
-                    <p class="text-white name-intro">Hi, Myself</p>
-                        <!-- creates a paragraph -->
-                    <p class="text-danger name-heading myname">Sugam Karki</p>
-                    <!-- ends the div -->
-                </div>
-                <!-- ends the div -->
-            </div>
-            <!-- ends the div -->
-        </div>
+    <!-- creation of class "cont" which holds the container -->
+    <div class="cont" >
+        <!-- header which says "Contact Me" -->
+        <div id="frm">
+        <h1 style="color: blueviolet;">Contact Me</h1>
+        <!-- starting of form  -->
+        <form name="form" class="form" id="form">
+            <!-- text box for name -->
+            <input type="text" class="cft" placeholder="Al E. Gater" id="name" name="Name"/>
+            <p class="error_message" id="errorNamePop">*The name is incorrect</p>
+            <!-- text box for email address -->
+            <input type="email" class="cft" placeholder="Stu@Pitt.com" id="email"/>
+            <p class="error_message" id="errorEmailPop">*The Email is incorrect</p>
 
-        <!-- creates About Section -->
-        <div id="about" class="container about p-5 paragraph">
-            <!-- creates a class row -->
-            <div class="row">
-                <!-- pl-5 pt-5 pb-5 -->
-                <div class="text-white ">
-                    <!-- crerates a abou me paragraph -->
-                    <p class="text-success about_me">About Me</p>
-                    <br />
-                    <!-- creates a paragraph for texts -->
-                    <p class="para">
-                        Hi, I am <b class="text-success">Sugam Karki</b>. I define myself as enthusiastic yet clumsy
-                        sometimes. I have been doing networking in NAMI College. I am passionate about programming,web
-                        devlopment and sometimes doing nothing. Having congenital need of simple life pleasures,i comply
-                        to push myself in the heirarchy of nature.Having done that,i have come in peace with looking
-                        around less and saving it in a pictures more.Here is the collection of pictures ,gathered
-                        throughout since I don't know:Years,maybe? Anybody is
-                        welcome here.It is very good to know me as I am very friendly and I am sure you will find me
-                        very interesting. I have lot of hobbies and in my truest belief I think we can have a good time
-                        together.
-                        <!-- ends the paragraph -->
-                    </p>
-                    <!-- links the button to cv.html -->
-                    <a class="btn btn-outline-primary" href="Assets/HTML/cv.html">Learn More</a>
-                    <!-- ends the div -->
-                </div>
-                <!-- ends the div -->
-            </div>
-            <!-- ends the div -->
+            <!-- text box for phone number -->
+            <input type="text" class="cft" placeholder="Phone Number" id="phone"/>
+            <p class="error_message" id="errorPhonePop">*The Phone number is incorrect</p>
+            <!-- text area for Message -->
+            <textarea class="cft" placeholder="Message (under 200 characters)" id="message"></textarea>
+            <p class="error_message" id="errorMessagePop">*The Message Is too long or too short</p>
+            <!-- submit button to submit the form -->
+
+            <input type="button" class="form-send" value="Send" id="send" />
+            <!-- ending of form  -->
+        </form>
         </div>
-        <!-- ends the div -->
-    </div>
+        <div class="feedback" id="feedback">
+                <div id="feedbackText" style="color:#ecf0f1">Please check the facts before sending.<br> Name:<p id="feedbackName" style="background-color:#95a5a6; width:fit-content;"></p>Email:<p id="feedbackEmail" style="background-color:#95a5a6; width:fit-content;"></p> Your message <p id="feedbackMessage" style="background-color: #95a5a6; width:fit-content;"></p> </div>
+                <button class="btn btn-outline-primary" id="feedbackSendButton" >SEND</button> 
+                <button class="btn btn-outline-warning" id="feedbackEditButton" >Edit</button></div>
+
+        </div>
+        <!-- ending of division -->
+
     <!-- starting of footer -->
     <footer id="footer">
         <!-- declares a main div tag for footer -->
@@ -150,20 +141,17 @@
                                 <!-- links to my github account -->
                         <a href="https://github.com/magusikrak"><span class="fab fa-github-square"></span></a>
                         <!-- links to my twitter -->
-                        <a href="https://twitter.com/SugamKa48866772"><span class="fab fa-twitter-square"></span></a>
+                        <a href="https://twitter.com"><span class="fab fa-twitter-square"></span></a>
                         <!-- links to freecodecamp -->
                         <a href="https://freecodecamp.com"><span class="fab fa-free-code-camp"></span></a>
-                        <!-- links to codepen -->
-                        <a href="https://codepen.io/magusikrak"><span class="fab fa-codepen"></span></a>
                             <!-- ends the div -->
-                       
-k
-
-
+                            <!-- links to codepen -->
+                        <a href="https://codepen.io/magusikrak"><span class="fab fa-codepen"></span></a>
+                  
                     </div>
 
                   <!--declares a button for pop up box  -->
-                  <button class="opnBtn" id="openForm">
+    <button class="opnBtn" id="openForm">
         <!-- adds icon -->
         <i class="fas fa-2x fa-envelope"></i>
     </button>
@@ -176,7 +164,7 @@ k
             <!-- inputs email -->
             <input type="email" class="popEmail"   placeholder="Your email">
             <!-- inputs phone number -->
-            <input type="number" class="popNumber" name="" id="" placeholder="your phone number">
+            <input type="number" class="popNumber" placeholder="your phone number">
             <!-- inputs the message -->
             <textarea placeholder="Please Enter your Message" name="message"  ></textarea>
             <!-- submits the form -->
@@ -195,10 +183,12 @@ k
         </div>
          <!-- ending of the footer -->
     </footer>
-    <!-- adds js to html -->
-    <script src="Assets/JAVASCRIPT/index.js" ></script>
+    <!-- links the javascript to html -->
+    <script src="../JAVASCRIPT/contact.js"></script>
 
-    
+    <!-- ending of body  -->
+
 </body>
+<!-- ending of html  -->
 
 </html>

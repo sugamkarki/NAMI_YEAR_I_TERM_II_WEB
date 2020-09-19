@@ -1,6 +1,6 @@
-body {
-  background: #03a9f4;
-  font-family: "Baloo Tamma 2", cursive;
+header {
+  /* sets background colour to #111 */
+  background-color: #111;
 }
 header {
   /* sets background colour to #111 */
@@ -50,73 +50,169 @@ header {
   /* sets the transition to 0.5s */
   transition: 0.5s ease;
 }
-/* Main Container height*/
-.main-container {
-  height: 500px;
-  border: 1px solid transparent;
+
+#name{
+  /* border: 1px solid red; */
+}
+/* ANCHOR end of header  */
+
+/* --------------------------HEADER---------------------------------------- */
+
+.cont {
+
+  /* setting background size to cover the division */
+  background-size: cover;
+  /* setting padding to 40px on left */
+  padding: 40px;
+  background-color: #c8d6e5;
 }
 
-.main-container:hover {
-  border: 1px solid #8e8e8e;
+.cont h1 {
+  /* setting text align to center */
+  text-align: center;
+  /* setting colout to #ddd */
+  color: #576574;
 }
 
-/* Aligning items in main row */
-.main_row {
+.form {
+  /* setting max-width to 600px */
+  max-width: 600px;
+  /* setting margin to auto  */
+  margin: auto;
+  /* setting padding top to 10px */
+  padding: 0 10px 0px 0px;
+  /* hides the overflow */
+  overflow: hidden;
+}
+
+.cft {
+  /* setting display type to block */
+  display: block;
+  /* setting width to 100% */
+  width: 100%;
+  /* setting type of box to border-box */
+  box-sizing: border-box;
+  /* setting margin to 15px on the left */
+  margin: 15px 0;
+  /* setting border to 0px */
+  border: 0px;
+  /* setting backgrounf to #1111 */
+  background-color: rgba(199, 18, 18, 0.067);
+  /* setting padding to 20px on the left and 40px on top */
+  padding: 20px 40px;
+  /* setting outilne to none */
+  outline: none;
+  /* setting colour to #ddd */
+  color: rgb(34, 28, 28);
+  /* setting transition time to 0.5s */
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.cft textarea {
+  /* setting setting resize to none */
+  resize: none;
+  /* setting height to 130px */
+  height: 130px;
+}
+
+.form-send {
+  /* setting float to right */
+  float: right;
+  /* setting border to 0px */
+  border: 0px;
+  /* setting background to #34495e */
+  background: #34495e;
+  /* setting colour to #fff */
+  color: #fff;
+  /* setting padding to 15px on left and 45px on top */
+  padding: 15px 45px;
+  /* setting border radius to 25px */
+  border-radius: 25px;
+  /* setting pointer notice while hovering cursor */
+  cursor: pointer;
+  /* setting transition time to 0.5s */
+  transition: 0.5s;
+}
+
+.form-send:hover {
+  /* setting colour change to  #29b948*/
+  background: #29b948;
+}
+
+.feedback {
+  /* setting the position to fixed  */
+  position: fixed;
+   /* setting the top to 100px */
+  top: 100px;
+  /* setting the right to auto */
+  right: auto;
+  /* setting the width to 1200px */
+  width: 1200px;
+   /* setting the height to auto */
+  height: auto;
+   /* setting the background-color to 34495e */
+  background-color: #34495e ; 
+  /* setting the padding to 20px */
+  padding: 20px;
+  /* setting the display to flex */
   display: flex;
-  justify-content: center;
+  /* setting the  border-radius to 40px */
+  border-radius: 40px;
+  /* setting the align-content to center */
+  align-content: center;
+  /* setting the align-items to center */
   align-items: center;
-}
+  /* setting the flex-direction to row */
+  flex-direction: row;
+  /* setting the flex-grow to inherit */
+  flex-grow: inherit;
+  /* setting the opacity to 1 */
+  opacity: 1;
+  /* setting the display to none */
+  display: none;
+  /* transition: 1s; */
 
-/* Changing Name Font sixe */
-.main_row h1 {
-  font-size: 5rem;
 }
-
-/* Making the main image the size of the screen */
-.main_row img {
-  width: auto;
-  height: 500px;
-  width: 500px;
-  float: left;
-  padding: 10px;
+.error_message{
+    /* setting the display to none, margin to 0px, padding to 0 and color to B53471*/
+  display: none;
+   margin: 0px;
+  padding: 0px;
+  color:#B53471;
 }
-
-.name {
-  padding-right: 50px;
-}
-
-.about_me {
-  font-size: 50px;
-  /* box-shadow: 5px 5px 5px black; */
-}
-
-/* About Section */
-.about {
-  background: #9ccc65;
-  height: 700px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px grey;
-  margin-bottom: 10px;
-  /* border-radius: 0.5rem; */
-}
-
-.para {
+#feedbackText {
+  /* setting the font-size to 30px */
   font-size: 30px;
 }
-
-/* Social Media Section */
-#social-media {
-  background: #313552;
+#feedbackName {
+    /* setting the font-size to 30px */
+  font-size: 30px;
 }
-
-/* .container-below{
-      height:600px;
-  } */
-.pic2 {
-  height: 500px;
+#feedbackSendButton {
+    /* setting the font-size to 30px, width to auto, margin to 5px, overflow-wrap to auto, float to right */
+  font-size: 30px;
+  width: auto;
+  margin: 5px;
+  /* flex-wrap: wrap; */
+  /* overflow-wrap: auto; */
+  float: right;
+  /* overflow:hidde */
+  
 }
+#feedbackEditButton {
+    /* setting the font-size to 30px, width to auto, margin to 0px, overflow-wrap to auto, float to left */
+  font-size: 30px;
+  width: auto;
+  margin: 0px;
+  /* flex-wrap: wrap;
+  overflow-wrap: auto; */
+  float: left;
+  /* overflow:hidde */
+  
+}
+/* ANCHOR Starting of footer */
 
-/* NOTE foOTER */
 footer {
   /* setting the height to 90px */
   height: 90px;
@@ -126,14 +222,15 @@ footer {
 
 .main-content {
   /* setting the float to center */
-  float: center;
+  /* float: center; */
+  /* float: ; */
 }
 
 .main-content .box {
   /* setting the flex-basis to 50%, padding to 5px 10px, float to center */
   flex-basis: 50%;
   padding: 5px 10px;
-  float: center;
+  /* float: center; */
 }
 
 /* .box .content{
@@ -348,60 +445,80 @@ footer {
   /* setting the opacity to 1 */
   opacity: 1;
 }
-
 @media all and (min-width: 360px) and (max-width: 767px) {
   .navbur {
-    /* sets the display to flex */
+    /* setting the display to flrx, flex-direction to column */
     display: flex;
-    /* sets flex-direction to column */
     flex-direction: column;
+    
   }
 
   .nav1 {
-    /* sets the flex to 1 */
+    /* setting the flex to 1 */
     flex: 1;
   }
+  .feedback {
+    /* setting the width to auto, height to auto, padding to 5px, margin to 2px, float to left, aling-content to center, aling-self to auto, overflow to inherit */
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin:2px;
+    float: left;
+    align-content: center;
+    align-self: auto;
+    overflow:inherit;
 
-  .name {
-    /* sets the font-size to 10px */
-    font-size: 10px;
   }
-
-  .myname {
-    /* sets the font size to 20 px */
+  #feedbackText {
+    /* setting the font-size to 20px */
     font-size: 20px;
   }
-
-  .paragraph {
-    /* sets the height to 2000 px */
-    height: 2000px;
+  #feedbackName {
+        /* setting the font-size to 20px */
+    font-size: 20px;
+  }
+  #feedbackSendButton {
+        /* setting the font-size to 20px, width to auto */
+    font-size: 20px;
+    width: auto;
+  }
+  #feedbackEditButton {
+        /* setting the font-size to 20px,width to auto */
+    font-size: 20px;
+    width: auto;
+  }
+  #feedbackMessage
+  {
+  /* setting the height to auto, width to auto */
+    height: auto;
+    width: auto;
   }
 }
-
+.up-link {
+  /* setting the position to fixed, left to 15px, width to 30px, bottom to 30px, border-radius to 60px, background-color to 9ccc65 */
+  position: fixed;
+  left: 15px;
+  width: 30px;
+  bottom: 30px;
+  border-radius: 60px;
+  background-color: #9ccc65;
+}
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  .paragraph {
-    /* sets the height to 1000 px */
-    height: 1000px;
+  .feedback {
+    /* setting the width to 600px, height to auto, padding to 10px */
+    width: 600px;
+    height: auto;
+    padding:10px;
+  }
+  
+  #feedbackText {
+      /* setting the font-size to 20px */
+    font-size: 20px;
+  }
+  #feedbackName {
+     /* setting the font-size to 20px */
+    font-size: 20px;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1920px) {
-}
-
-@media screen and (max-width: 900px) {
-  footer {
-    /* sets the bottom position to 0px */
-    bottom: 0px;
-  }
-
-  .main-content {
-    /* sets the flex-wrap to wrap */
-    flex-wrap: wrap;
-    /* sets the flex-direction to column */
-    flex-direction: column;
-  }
-
-  .main-content .box {
-    /* sets the fmargin to 5px and 0px */
-    margin: 5px 0;
-  }
 }

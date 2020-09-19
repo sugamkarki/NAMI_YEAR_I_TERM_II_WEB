@@ -1,7 +1,9 @@
 body {
+	/* setting background colour to thistile */
 	background-color: thistle;
 }
 .container {
+	/* setting display to flex, contents to center, flex direction to column and background colour to bisque */
 	display: flex;
 	background-color: bisque;
 	align-content: center;
@@ -10,10 +12,12 @@ body {
 	flex-direction: column;
 }
 .heading {
+	/* setting font size to 40px */
 	font-size: 40px;
 	align-content: center;
 }
 .display {
+	/* setting diplay to flex and contents to center, and direction to columnn and row */
 	display: flex;
 	align-content: center;
 	align-self: center;
@@ -22,6 +26,7 @@ body {
     flex-direction: row;
 }
 .display_left {
+	/* setting background colout to aqua, margin to 100px, padding to 10px and flex-grow to ingerit */
 	background-color: aqua;
 	margin: 100px;
 	padding: 10px;
@@ -29,6 +34,7 @@ body {
     border:3px solid black;
 }
 .display_right {
+	/* setting background colour, padding to 10px, margin to 100px and border to 3px solid black */
 	background-color: rgb(151, 182, 182);
 	padding: 10px;
 	flex-grow: inherit;
@@ -36,8 +42,8 @@ body {
     border:3px solid black;
 }
 .controls {
+	/* setting diplay to felx, align content to center */
 	display: flex;
-	/* background-color: bisque; */
 	align-content: center;
 	align-self: center;
 	align-items: center;
@@ -45,13 +51,13 @@ body {
 }
 .start
 {
+	/* setting font-size to 30px, margin right ot 30px */
    font-size: 30px;
    margin-right: 30px;
 }
 .reset
 {
+	/* setting padding-right to 20px and float to right */
     padding-right: 20px;
     float: right;
-    align-items: right;
-    /* font-size: 60px; */
 }
