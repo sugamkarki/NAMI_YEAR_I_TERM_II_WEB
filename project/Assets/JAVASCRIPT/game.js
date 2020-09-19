@@ -160,7 +160,7 @@ function batMovement() {
 	c.stroke();
 }
 canvas.addEventListener("mousemove", (e) => {
-	relativeY = e.clientY;
+	let relativeY = e.clientY;
 	c.fillStyle = "#2d3436";
 	c.fill();
 	c.fillRect(0, batHeightLeft, 10, 50);
